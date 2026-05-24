@@ -29,6 +29,51 @@ const segmentFilters = [
 
 const siteName = "Kharadi Properties";
 
+const fallbackImages = [
+  "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=82",
+  "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=82",
+  "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=82",
+  "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=82",
+  "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1800&q=82",
+  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=82",
+  "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=82",
+  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=82",
+];
+
+function fallbackImageFor(society, offset = 0) {
+  const seed = society?.id || society?.slug?.length || 0;
+  return fallbackImages[(seed + offset) % fallbackImages.length];
+}
+
+function SafeImage({ src, society, fallbackOffset = 0, alt, loading = "lazy", ...props }) {
+  const fallbackBase = fallbackImageFor(society, fallbackOffset);
+  const [imageSrc, setImageSrc] = useState(src || fallbackBase);
+  const [attempt, setAttempt] = useState(0);
+
+  useEffect(() => {
+    setImageSrc(src || fallbackBase);
+    setAttempt(0);
+  }, [src, fallbackBase]);
+
+  function handleError() {
+    const nextAttempt = attempt + 1;
+    if (nextAttempt > fallbackImages.length) return;
+    setAttempt(nextAttempt);
+    setImageSrc(fallbackImageFor(society, fallbackOffset + nextAttempt));
+  }
+
+  return (
+    <img
+      {...props}
+      src={imageSrc}
+      alt={alt}
+      loading={loading}
+      decoding="async"
+      onError={handleError}
+    />
+  );
+}
+
 function displayValue(value, fallback = "On request") {
   if (!value || value === "-" || value === "—") return fallback;
   return value;
@@ -211,7 +256,7 @@ function HomePage() {
         <div className="spotlight-grid">
           {premiumSocieties.map((society) => (
             <a className="spotlight-card" href={`#/society/${society.slug}`} key={society.slug}>
-              <img src={society.heroImage} alt={`${society.name} Kharadi society visual`} />
+              <SafeImage src={society.heroImage} society={society} alt={`${society.name} Kharadi society visual`} />
               <span>{society.segment || "Society Guide"}</span>
               <h3>{society.name}</h3>
               <p>{society.zone || "Kharadi, Pune"}</p>
@@ -232,7 +277,7 @@ function HomePage() {
           {filteredSocieties.map((society) => (
             <article className="post-card society-guide-card" key={society.slug}>
               <a className="post-image" href={`#/society/${society.slug}`}>
-                <img src={society.heroImage} alt={`${society.name} Kharadi`} />
+                <SafeImage src={society.heroImage} society={society} alt={`${society.name} Kharadi`} />
               </a>
               <div className="post-card-body">
                 <div className="post-meta">
@@ -285,6 +330,12 @@ function HomePage() {
 }
 
 function SocietyGuide({ society }) {
+  const [heroBackground, setHeroBackground] = useState(society.heroImage || fallbackImageFor(society));
+
+  useEffect(() => {
+    setHeroBackground(society.heroImage || fallbackImageFor(society));
+  }, [society]);
+
   const relatedCandidates = [
     ...societyProfiles.filter((item) => item.slug !== society.slug && item.zone === society.zone),
     ...societyProfiles.filter((item) => item.slug !== society.slug && item.segment === society.segment),
@@ -299,11 +350,27 @@ function SocietyGuide({ society }) {
     ["4 BHK / Villa", society.fourBhk],
   ];
 
+  const galleryImages = Array.from(
+    new Set(
+      (society.gallery.length > 0
+        ? society.gallery
+        : [society.heroImage, fallbackImageFor(society, 1), fallbackImageFor(society, 2)]
+      ).filter(Boolean)
+    )
+  ).slice(0, 3);
+
   return (
     <main className="detail-main">
       <SiteHeader />
 
-      <section className="detail-hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(17, 23, 19, 0.88), rgba(23, 107, 90, 0.55)), url(${society.heroImage})` }}>
+      <section className="detail-hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(17, 23, 19, 0.88), rgba(23, 107, 90, 0.55)), url(${heroBackground})` }}>
+        <img
+          className="detail-hero-probe"
+          src={heroBackground}
+          alt=""
+          aria-hidden="true"
+          onError={() => setHeroBackground(fallbackImageFor(society))}
+        />
         <div>
           <a className="back-link" href="#guides"><ArrowLeft size={17} /> Back to all society guides</a>
           <p className="eyebrow">{society.segment || "Kharadi society guide"}</p>
@@ -384,19 +451,21 @@ function SocietyGuide({ society }) {
             </p>
           </section>
 
-          {society.gallery.length > 0 && (
           <section>
             <p className="eyebrow">Gallery</p>
             <h2>{society.name} visuals</h2>
-            {society.gallery.length > 0 ? (
-              <div className={`gallery-grid count-${society.gallery.length}`}>
-                {society.gallery.map((image, index) => (
-                  <img src={image} alt={`${society.name} visual ${index + 1}`} key={image} />
-                ))}
-              </div>
-            ) : null}
+            <div className={`gallery-grid count-${galleryImages.length}`}>
+              {galleryImages.map((image, index) => (
+                <SafeImage
+                  src={image}
+                  society={society}
+                  fallbackOffset={index + 1}
+                  alt={`${society.name} visual ${index + 1}`}
+                  key={`${image}-${index}`}
+                />
+              ))}
+            </div>
           </section>
-          )}
 
           <section>
             <p className="eyebrow">Buyer fit</p>

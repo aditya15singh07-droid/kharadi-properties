@@ -5382,5 +5382,5 @@ export const societyStats = [
   { value: "160", label: "Kharadi societies" },
   { value: "9", label: "micro-markets covered" },
   { value: "24/7", label: "private research site" },
-  { value: "No-index", label: "search visibility" },
+  { value: "Live", label: "society blog library" },
 ];

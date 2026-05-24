@@ -491,6 +491,10 @@ input {
   color: #ffffff;
 }
 
+.detail-hero-probe {
+  display: none;
+}
+
 .detail-hero h1 {
   max-width: 1120px;
   font-size: clamp(2.8rem, 7vw, 6.6rem);
