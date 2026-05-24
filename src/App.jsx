@@ -12,23 +12,68 @@ import {
   TrendingUp,
 } from "lucide-react";
 import React from "react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import "./styles.css";
 import { featuredLocalities, posts, societies, stats } from "./data/properties.js";
+import { fetchPublishedPosts } from "./lib/supabase.js";
 
 const categories = ["All", "Society Guide", "Rent", "Buying", "Local Area"];
 
 function App() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("All");
+  const [publishedPosts, setPublishedPosts] = useState(posts);
+  const [isLoadingPosts, setIsLoadingPosts] = useState(false);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    async function loadPosts() {
+      setIsLoadingPosts(true);
+
+      try {
+        const supabasePosts = await fetchPublishedPosts();
+        if (isMounted && supabasePosts.length > 0) {
+          setPublishedPosts(
+            supabasePosts.map((post) => ({
+              id: post.slug || post.id,
+              category: post.category,
+              date: post.published_at
+                ? new Date(post.published_at).toLocaleDateString("en-IN", {
+                    month: "short",
+                    year: "numeric",
+                  })
+                : "Draft",
+              title: post.title,
+              society: post.society || "Kharadi",
+              location: post.location,
+              excerpt: post.excerpt,
+            }))
+          );
+        }
+      } catch (error) {
+        console.warn("Using sample posts because Supabase posts could not load.", error);
+      } finally {
+        if (isMounted) {
+          setIsLoadingPosts(false);
+        }
+      }
+    }
+
+    loadPosts();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   const filteredPosts = useMemo(() => {
-    return posts.filter((post) => {
+    return publishedPosts.filter((post) => {
       const matchesCategory = category === "All" || post.category === category;
       const haystack = `${post.title} ${post.excerpt} ${post.society} ${post.location}`.toLowerCase();
       return matchesCategory && haystack.includes(query.toLowerCase());
     });
-  }, [category, query]);
+  }, [category, publishedPosts, query]);
 
   const selectCategory = (item) => {
     setCategory(item);
@@ -108,6 +153,7 @@ function App() {
           <p>
             Start with curated blog-style information now. Later, the same structure can power listings, owner leads, service pages, and paid property promotion.
           </p>
+          {isLoadingPosts && <span className="sync-note">Checking Supabase posts...</span>}
         </div>
         <div className="blog-list">
           {filteredPosts.map((post) => (

@@ -291,6 +291,14 @@ textarea {
   line-height: 1.7;
 }
 
+.sync-note {
+  display: inline-flex;
+  margin-top: 4px;
+  color: #176b5a;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .section-heading.compact {
   position: static;
   max-width: 760px;
