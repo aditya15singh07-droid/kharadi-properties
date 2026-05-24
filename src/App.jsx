@@ -7,8 +7,6 @@ import {
   IndianRupee,
   MapPin,
   Search,
-  ShieldCheck,
-  Sparkles,
   Star,
   TrendingUp,
 } from "lucide-react";
@@ -48,7 +46,7 @@ function guideExcerpt(society) {
   const zone = society.zone || "Kharadi";
   const segment = society.segment || "residential";
   const rent = displayValue(society.monthlyRent, "rent details on request");
-  return `${society.name} is a ${segment} society in ${zone}, Kharadi. This guide covers price, rent, amenities, location, buyer profile, investment view, and photo research for serious home seekers. Monthly rent estimate: ${rent}.`;
+  return `${society.name} is a ${segment} society in ${zone}, Kharadi. This guide covers pricing, rent demand, amenities, location, buyer profile, and investment view for serious home seekers. Monthly rent estimate: ${rent}.`;
 }
 
 function useHashRoute() {
@@ -92,7 +90,6 @@ function SiteHeader() {
       </a>
       <nav aria-label="Main navigation">
         <a href="#guides">Society Guides</a>
-        <a href="#photo-research">Photos</a>
         <a href="#market">Market</a>
         <a className="nav-cta" href="#guides">Explore</a>
       </nav>
@@ -123,6 +120,17 @@ function HomePage() {
   }, [query, segment]);
 
   const premiumSocieties = societyProfiles.slice(0, 6);
+  const topMatches = filteredSocieties.slice(0, 5);
+
+  function handleSearchSubmit(event) {
+    event.preventDefault();
+    const bestMatch = filteredSocieties[0];
+    if (bestMatch) {
+      window.location.hash = `#/society/${bestMatch.slug}`;
+      return;
+    }
+    document.querySelector("#guides")?.scrollIntoView({ behavior: "smooth" });
+  }
 
   return (
     <main>
@@ -133,27 +141,32 @@ function HomePage() {
           <p className="eyebrow">160 society guides for Kharadi and Upper Kharadi</p>
           <h1>{siteName}</h1>
           <p className="hero-text">
-            A private, no-index property intelligence site with detailed society blogs, price notes, rent ranges, amenities, location context, and curated society visuals.
+            Detailed Kharadi society blogs with price notes, rent ranges, amenities, location context, buyer fit, and investment view.
           </p>
           <div className="hero-actions">
             <a className="primary-button" href="#guides">
               Explore society guides <ArrowRight size={18} />
             </a>
-            <a className="secondary-button" href="#photo-research">View society visuals</a>
+            <a className="secondary-button" href="#market">View market notes</a>
           </div>
         </div>
-        <div className="search-panel" aria-label="Society guide search">
+        <form className="search-panel" aria-label="Society guide search" onSubmit={handleSearchSubmit}>
           <div className="search-title">
             <Search size={20} />
             <span>Search Kharadi societies</span>
           </div>
           <label>
             Society, builder, zone, or landmark
-            <input
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="E.g. Marvel Cerise, EON, riverfront"
-            />
+            <span className="search-input-row">
+              <input
+                value={query}
+                onChange={(event) => setQuery(event.target.value)}
+                placeholder="E.g. Marvel Cerise, EON, riverfront"
+              />
+              <button type="submit" aria-label="Open best matching society guide">
+                <Search size={20} />
+              </button>
+            </span>
           </label>
           <div className="quick-filters" aria-label="Society segment filters">
             {segmentFilters.map((item) => (
@@ -167,7 +180,15 @@ function HomePage() {
               </button>
             ))}
           </div>
-        </div>
+          <div className="search-results-preview" aria-label="Top matching society guides">
+            {topMatches.map((society) => (
+              <a href={`#/society/${society.slug}`} key={society.slug}>
+                <span>{society.name}</span>
+                <small>{society.zone || "Kharadi"} · {society.segment || "Society Guide"}</small>
+              </a>
+            ))}
+          </div>
+        </form>
       </section>
 
       <section className="stats-band" aria-label="Site highlights">
@@ -184,7 +205,7 @@ function HomePage() {
           <p className="eyebrow">Start here</p>
           <h2>Premium society spotlights</h2>
           <p>
-            Each guide reads like a focused property blog: overview, pricing, apartment mix, location, lifestyle, investment angle, buyer fit, and photo search.
+            Each guide reads like a focused property blog: overview, pricing, apartment mix, location, lifestyle, investment angle, and buyer fit.
           </p>
         </div>
         <div className="spotlight-grid">
@@ -204,26 +225,31 @@ function HomePage() {
           <p className="eyebrow">Society blog library</p>
           <h2>{filteredSocieties.length} detailed guides</h2>
           <p>
-            Search any society from the spreadsheet and open its full guide. The pages are ready for richer photos, service CTAs, lead forms, and Supabase publishing.
+            Search any society from the database and open its full guide. The pages are ready for service CTAs, lead forms, and verified property inventory later.
           </p>
         </div>
         <div className="blog-list">
           {filteredSocieties.map((society) => (
             <article className="post-card society-guide-card" key={society.slug}>
-              <div className="post-meta">
-                <span>{society.segment || "Society Guide"}</span>
-                <span><Star size={14} /> {displayValue(society.rating, "Rating soon")}</span>
-              </div>
-              <h3>{society.name} Kharadi: complete society guide</h3>
-              <p>{guideExcerpt(society)}</p>
-              <div className="guide-facts">
-                <span><MapPin size={15} /> {society.zone || "Kharadi"}</span>
-                <span><IndianRupee size={15} /> {priceSummary(society)}</span>
-                <span><Home size={15} /> {displayValue(society.status, "Status soon")}</span>
-              </div>
-              <div className="post-footer">
-                <span>{displayValue(society.builder, "Builder details soon")}</span>
-                <a href={`#/society/${society.slug}`}>Read full guide</a>
+              <a className="post-image" href={`#/society/${society.slug}`}>
+                <img src={society.heroImage} alt={`${society.name} Kharadi`} />
+              </a>
+              <div className="post-card-body">
+                <div className="post-meta">
+                  <span>{society.segment || "Society Guide"}</span>
+                  <span><Star size={14} /> {displayValue(society.rating, "Rating soon")}</span>
+                </div>
+                <h3>{society.name} Kharadi: complete society guide</h3>
+                <p>{guideExcerpt(society)}</p>
+                <div className="guide-facts">
+                  <span><MapPin size={15} /> {society.zone || "Kharadi"}</span>
+                  <span><IndianRupee size={15} /> {priceSummary(society)}</span>
+                  <span><Home size={15} /> {displayValue(society.status, "Status soon")}</span>
+                </div>
+                <div className="post-footer">
+                  <span>{displayValue(society.builder, "Builder details soon")}</span>
+                  <a href={`#/society/${society.slug}`}>Read full guide</a>
+                </div>
               </div>
             </article>
           ))}
@@ -237,32 +263,16 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="photo-research-section" id="photo-research">
-        <div>
-          <p className="eyebrow">Google Images workflow</p>
-          <h2>Society photos inside the pages</h2>
-          <p>
-            The visible Google search links are removed. Where reliable society/project photo URLs are available, the guide pages show those images directly in the gallery.
-          </p>
-        </div>
-        <div className="engine-grid">
-          <div><Sparkles /> Real project and flat photos are shown directly inside the page.</div>
-          <div><ShieldCheck /> Keep the site no-index while the content and photos are being prepared.</div>
-          <div><CheckCircle2 /> Generic stock apartment photos have been removed from society pages.</div>
-          <div><TrendingUp /> Use the same guide pages for future property selling services.</div>
-        </div>
-      </section>
-
       <section className="engine-section" id="market">
         <div>
-          <p className="eyebrow">Private build mode</p>
-          <h2>No-index society intelligence site</h2>
+          <p className="eyebrow">Kharadi market</p>
+          <h2>How to read these society blogs</h2>
         </div>
         <div className="engine-grid">
-          <div><CheckCircle2 /> HTML robots meta tag blocks indexing.</div>
-          <div><ShieldCheck /> Vercel sends an X-Robots-Tag noindex header.</div>
-          <div><TrendingUp /> 160 generated society guides are ready for refinement.</div>
-          <div><Building2 /> The structure can become a listings and services portal next.</div>
+          <div><CheckCircle2 /> Compare the quoted price band with live resale and rent demand.</div>
+          <div><MapPin /> Check daily commute to EON, WTC, Magarpatta, Viman Nagar, and the airport.</div>
+          <div><TrendingUp /> Review rental yield, maintenance cost, and vacancy risk before investing.</div>
+          <div><Building2 /> Shortlist societies by builder, possession status, amenities, and buyer profile.</div>
         </div>
       </section>
 
@@ -299,7 +309,7 @@ function SocietyGuide({ society }) {
           <p className="eyebrow">{society.segment || "Kharadi society guide"}</p>
           <h1>{society.name} Kharadi: complete society guide</h1>
           <p className="hero-text">
-            Price, rent, amenities, location, buyer profile, investment view, contact details, and HD photo research for {society.name}.
+            Price, rent, amenities, location, buyer profile, investment view, and contact details for {society.name}.
           </p>
           <div className="detail-tags">
             <span><MapPin size={16} /> {society.zone || "Kharadi"}</span>
@@ -319,9 +329,6 @@ function SocietyGuide({ society }) {
           <Fact label="Rent estimate" value={society.monthlyRent} />
           <Fact label="Rental yield" value={society.rentalYield} />
           <Fact label="Investment" value={society.investmentPotential} />
-          <span className={society.photoStatus === "verified-photo-url" ? "photo-status ready" : "photo-status"}>
-            {society.photoStatus === "verified-photo-url" ? "Photos added" : "Photos pending review"}
-          </span>
         </aside>
 
         <article className="society-article">
@@ -377,23 +384,19 @@ function SocietyGuide({ society }) {
             </p>
           </section>
 
+          {society.gallery.length > 0 && (
           <section>
-            <p className="eyebrow">Photo board</p>
-            <h2>Society and flat visuals</h2>
+            <p className="eyebrow">Gallery</p>
+            <h2>{society.name} visuals</h2>
             {society.gallery.length > 0 ? (
               <div className={`gallery-grid count-${society.gallery.length}`}>
                 {society.gallery.map((image, index) => (
                   <img src={image} alt={`${society.name} visual ${index + 1}`} key={image} />
                 ))}
               </div>
-            ) : (
-              <div className="gallery-pending">
-                <Building2 size={38} />
-                <strong>{society.name} photos are pending verification</strong>
-                <span>Generic apartment placeholders were removed so this page does not show wrong society visuals.</span>
-              </div>
-            )}
+            ) : null}
           </section>
+          )}
 
           <section>
             <p className="eyebrow">Buyer fit</p>

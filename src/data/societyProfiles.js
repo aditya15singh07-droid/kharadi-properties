@@ -77,7 +77,9 @@ export const societyProfiles = [
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/11/27/Project-Photo-17-Panchshil-Towers-Pune-5019803_345_1366_600_900.jpg",
       "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2022/09/21/Project-Photo-33-Panchshil-Towers-Pune-5019803_1080_1920_310_462.jpg",
-      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/08/Photo_h600_w900/82487929_1_PropertyImage485-5611782394176_600_900.jpg"
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/08/Photo_h600_w900/82487929_1_PropertyImage485-5611782394176_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2020/11/27/Project-Photo-17-Panchshil-Towers-Pune-5019803_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2026/03/16/Project-Photo-103-Panchshil-Towers-Pune-5019803_963_1280_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -223,7 +225,10 @@ export const societyProfiles = [
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/07/01/Project-Photo-31-Gera-World-of-Joy-Pune-5126679_345_1366_600_900.jpg",
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/07/01/Project-Photo-31-Gera-World-of-Joy-Pune-5126679_345_1366_600_900.jpg",
-      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/May/05/Photo_h600_w900/84519361_1_PropertyImage143-31411967726905_600_900.jpg"
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/May/05/Photo_h600_w900/84519361_1_PropertyImage143-31411967726905_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2021/07/01/Project-Photo-31-Gera-World-of-Joy-Pune-5126679_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2021/07/01/Project-Photo-31-Gera-World-of-Joy-Pune-5126679_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2026/03/05/Project-Photo-137-Gera-World-of-Joy-Pune-5126679_768_1020_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -259,7 +264,11 @@ export const societyProfiles = [
     "remarks": "Popular among millennials; smart home features",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/01/11/Project-Photo-1-Unique-Youtopia-Pune-5325149_345_1366_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/01/11/Project-Photo-1-Unique-Youtopia-Pune-5325149_345_1366_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/01/11/Project-Photo-1-Unique-Youtopia-Pune-5325149_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/01/11/Project-Photo-1-Unique-Youtopia-Pune-5325149_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2022/01/11/Project-Photo-1-Unique-Youtopia-Pune-5325149_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/11/21/Project-Photo-26-Unique-Youtopia-Pune-5325149_1500_2000_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/11/21/Project-Photo-27-Unique-Youtopia-Pune-5325149_1500_2000_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -767,7 +776,11 @@ export const societyProfiles = [
     "remarks": "High rental yield; near EON IT corridor",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/15/Project-Photo-123-Ganga-Platino-Pune-5028770_345_1366_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/15/Project-Photo-123-Ganga-Platino-Pune-5028770_345_1366_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/15/Project-Photo-123-Ganga-Platino-Pune-5028770_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2020/09/15/Project-Photo-123-Ganga-Platino-Pune-5028770_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2020/09/15/Project-Photo-123-Ganga-Platino-Pune-5028770_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/Project-Photo-1-Ganga-Platino-Pune-5028770_448_1000_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2026/03/16/Project-Photo-134-Ganga-Platino-Pune-5028770_1280_1041_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -907,7 +920,9 @@ export const societyProfiles = [
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2026/02/23/Project-Photo-10-Godrej-Ivara-Pune-5445221_541_1152_600_900.jpg",
       "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2026/02/23/Project-Photo-21-Godrej-Ivara-Pune-5445221_501_873_310_462.jpg",
-      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2026/02/23/Project-Photo-7-Godrej-Ivara-Pune-5445221_475_634_310_462.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2026/02/23/Project-Photo-7-Godrej-Ivara-Pune-5445221_475_634_310_462.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2026/02/23/Project-Photo-10-Godrej-Ivara-Pune-5445221_541_1152_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2026/02/23/Project-Photo-21-Godrej-Ivara-Pune-5445221_501_873.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1144,7 +1159,11 @@ export const societyProfiles = [
     "remarks": "IT employee preference; good social infrastructure",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/10/25/Project-Photo-1-Neco-Park-Central-Pune-5424305_410_1440_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/10/25/Project-Photo-1-Neco-Park-Central-Pune-5424305_410_1440_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/10/25/Project-Photo-1-Neco-Park-Central-Pune-5424305_410_1440_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/10/25/Project-Photo-1-Neco-Park-Central-Pune-5424305_410_1440_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2024/10/25/Project-Photo-1-Neco-Park-Central-Pune-5424305_410_1440.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/10/25/Project-Photo-22-Neco-Park-Central-Pune-5424305_840_1600_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/10/25/Project-Photo-21-Neco-Park-Central-Pune-5424305_731_1600_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1181,7 +1200,9 @@ export const societyProfiles = [
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/09/27/Project-Photo-1-VTP-Dolce-Vita-Pune-5417097_345_1366_600_900.jpg",
       "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2023/09/27/Project-Photo-1-VTP-Dolce-Vita-Pune-5417097_345_1366_310_462.jpg",
-      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2023/09/27/Project-Photo-13-VTP-Dolce-Vita-Pune-5417097_600_800_310_462.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2023/09/27/Project-Photo-13-VTP-Dolce-Vita-Pune-5417097_600_800_310_462.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2023/09/27/Project-Photo-1-VTP-Dolce-Vita-Pune-5417097_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2023/09/27/Project-Photo-1-VTP-Dolce-Vita-Pune-5417097_345_1366.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1217,7 +1238,10 @@ export const societyProfiles = [
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/07/25/Project-Photo-16-VTP-Euphoria-Pune-5325819_410_1440_600_900.jpg",
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/07/25/Project-Photo-16-VTP-Euphoria-Pune-5325819_410_1440_600_900.jpg",
-      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/09/Photo_h600_w900/82501583_5_hatsAppImage20251129at12.52.24PM8_600_900.jpeg"
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/09/Photo_h600_w900/82501583_5_hatsAppImage20251129at12.52.24PM8_600_900.jpeg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/07/25/Project-Photo-16-VTP-Euphoria-Pune-5325819_410_1440_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2024/07/25/Project-Photo-16-VTP-Euphoria-Pune-5325819_410_1440.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/08/22/Project-Photo-7-VTP-Euphoria-Pune-5325819_600_800_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1322,7 +1346,11 @@ export const societyProfiles = [
     "remarks": "VTP Luxe brand; high-end positioning",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/07/17/Project-Photo-1-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_345_1366_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/07/17/Project-Photo-1-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_345_1366_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/07/17/Project-Photo-1-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2023/07/17/Project-Photo-1-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2023/07/17/Project-Photo-1-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2023/07/17/Project-Photo-29-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_600_800_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2023/07/17/Project-Photo-28-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_600_800_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1720,7 +1748,11 @@ export const societyProfiles = [
     "remarks": "Lodha brand; high-end buyer segment; ultra luxury",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/12/27/Project-Photo-1-Lodha-Estilo-Pune-5418287_345_1366_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/12/27/Project-Photo-1-Lodha-Estilo-Pune-5418287_345_1366_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/12/27/Project-Photo-1-Lodha-Estilo-Pune-5418287_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2023/12/27/Project-Photo-1-Lodha-Estilo-Pune-5418287_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2023/12/27/Project-Photo-8-Lodha-Estilo-Pune-5418287_600_800.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2023/12/27/Project-Photo-8-Lodha-Estilo-Pune-5418287_600_800_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2023/12/27/Project-Photo-7-Lodha-Estilo-Pune-5418287_600_800_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1757,7 +1789,9 @@ export const societyProfiles = [
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/02/13/Project-Photo-1-Lodha-Giardino-Pune-5419023_345_1366_600_900.jpg",
       "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2024/02/13/Project-Photo-8-Lodha-Giardino-Pune-5419023_384_800_310_462.jpg",
-      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/01/Photo_h600_w900/84014297_2_PropertyImage986-1044733538833_600_900.jpg"
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/01/Photo_h600_w900/84014297_2_PropertyImage986-1044733538833_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/02/13/Project-Photo-1-Lodha-Giardino-Pune-5419023_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2024/02/13/Project-Photo-1-Lodha-Giardino-Pune-5419023_345_1366.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1792,7 +1826,11 @@ export const societyProfiles = [
     "remarks": "Premium amenities; near EON corridor",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/03/11/Project-Photo-1-Ganga-Altus-Pune-5144269_345_1366_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/03/11/Project-Photo-1-Ganga-Altus-Pune-5144269_345_1366_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/03/11/Project-Photo-1-Ganga-Altus-Pune-5144269_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2020/03/11/Project-Photo-1-Ganga-Altus-Pune-5144269_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2020/03/11/Project-Photo-1-Ganga-Altus-Pune-5144269_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/12/03/Project-Photo-10-Ganga-Altus-Pune-5144269_447_606_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2020/03/11/Project-Photo-7-Ganga-Altus-Pune-5144269_675_1200_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1827,7 +1865,11 @@ export const societyProfiles = [
     "remarks": "Possession ~2027; premium skyline towers",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/30/Project-Photo-14-Ganga-Platinum-Pune-5325037_345_1366_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/30/Project-Photo-14-Ganga-Platinum-Pune-5325037_345_1366_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/30/Project-Photo-14-Ganga-Platinum-Pune-5325037_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/08/30/Project-Photo-14-Ganga-Platinum-Pune-5325037_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2022/08/30/Project-Photo-14-Ganga-Platinum-Pune-5325037_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/08/30/Project-Photo-22-Ganga-Platinum-Pune-5325037_600_800_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/08/30/Project-Photo-21-Ganga-Platinum-Pune-5325037_600_800_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1862,7 +1904,11 @@ export const societyProfiles = [
     "remarks": "High appreciation project; luxury positioning",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/25/Project-Photo-5-Riverdale-Grand-Pune-5335215_345_1366_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/25/Project-Photo-5-Riverdale-Grand-Pune-5335215_345_1366_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/25/Project-Photo-5-Riverdale-Grand-Pune-5335215_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/08/25/Project-Photo-5-Riverdale-Grand-Pune-5335215_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2022/08/25/Project-Photo-5-Riverdale-Grand-Pune-5335215_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/08/25/Project-Photo-8-Riverdale-Grand-Pune-5335215_600_800_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/08/25/Project-Photo-7-Riverdale-Grand-Pune-5335215_600_800_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1933,7 +1979,11 @@ export const societyProfiles = [
     "remarks": "Strong resale demand; family-friendly environment",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2025/03/25/Project-Photo-1-Palm-Drive-Pune-5429647_410_1440_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2025/03/25/Project-Photo-1-Palm-Drive-Pune-5429647_410_1440_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2025/03/25/Project-Photo-1-Palm-Drive-Pune-5429647_410_1440_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2025/03/25/Project-Photo-1-Palm-Drive-Pune-5429647_410_1440_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2025/03/25/Project-Photo-1-Palm-Drive-Pune-5429647_410_1440.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2025/03/25/Project-Photo-14-Palm-Drive-Pune-5429647_796_1600_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2025/03/25/Project-Photo-13-Palm-Drive-Pune-5429647_806_1600_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -1967,7 +2017,11 @@ export const societyProfiles = [
     "remarks": "Popular among young buyers; new-age amenities",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/08/23/Project-Photo-1-Prasun-Adara-Pune-5422787_410_1440_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/08/23/Project-Photo-1-Prasun-Adara-Pune-5422787_410_1440_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/08/23/Project-Photo-1-Prasun-Adara-Pune-5422787_410_1440_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/08/23/Project-Photo-1-Prasun-Adara-Pune-5422787_410_1440_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2024/08/23/Project-Photo-1-Prasun-Adara-Pune-5422787_410_1440.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/08/23/Project-Photo-17-Prasun-Adara-Pune-5422787_1846_1600_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/08/23/Project-Photo-16-Prasun-Adara-Pune-5422787_800_1600_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -3797,7 +3851,10 @@ export const societyProfiles = [
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/01/16/Project-Photo-1-Majestique-Evolvus-Pune-5418529_345_1366_600_900.jpg",
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/01/16/Project-Photo-1-Majestique-Evolvus-Pune-5418529_345_1366_600_900.jpg",
-      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/28/Photo_h600_w900/84425093_2_volvusImage4_600_900.jpg"
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/28/Photo_h600_w900/84425093_2_volvusImage4_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/01/16/Project-Photo-1-Majestique-Evolvus-Pune-5418529_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2024/01/16/Project-Photo-1-Majestique-Evolvus-Pune-5418529_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/01/16/Project-Photo-12-Majestique-Evolvus-Pune-5418529_900_1600_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -3834,7 +3891,10 @@ export const societyProfiles = [
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/11/Project-Photo-13-Majestique-Marbella-Pune-5188454_345_1366_600_900.jpg",
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/11/Project-Photo-13-Majestique-Marbella-Pune-5188454_345_1366_600_900.jpg",
-      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2020/08/12/Project-Photo-6-Majestique-Marbella-Pune-5188454_684_1000_310_462.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2020/08/12/Project-Photo-6-Majestique-Marbella-Pune-5188454_684_1000_310_462.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2020/09/11/Project-Photo-13-Majestique-Marbella-Pune-5188454_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2020/08/12/Project-Photo-9-Majestique-Marbella-Pune-5188454_600_1000_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2020/08/12/Project-Photo-11-Majestique-Marbella-Pune-5188454_563_1000_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -3906,7 +3966,9 @@ export const societyProfiles = [
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/04/16/Project-Photo-1-Pristine-O2-World-Pune-5419663_345_1366_600_900.jpg",
       "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/28/Photo_h600_w900/84423901_14_000416994_600_900.jpg",
-      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/28/Photo_h600_w900/84424505_1_000416968_600_900.jpg"
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/28/Photo_h600_w900/84424505_1_000416968_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2024/04/16/Project-Photo-1-Pristine-O2-World-Pune-5419663_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2024/04/16/Project-Photo-1-Pristine-O2-World-Pune-5419663_345_1366.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -4010,7 +4072,10 @@ export const societyProfiles = [
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/16/Project-Photo-16-Yashwin-Orizzonte-Pune-5188982_345_1366_600_900.jpg",
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/16/Project-Photo-16-Yashwin-Orizzonte-Pune-5188982_345_1366_600_900.jpg",
-      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/08/Photo_h600_w900/82485987_8_PropertyImage96-25475560502328_600_900.jpg"
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/08/Photo_h600_w900/82485987_8_PropertyImage96-25475560502328_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/08/16/Project-Photo-16-Yashwin-Orizzonte-Pune-5188982_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2022/08/16/Project-Photo-16-Yashwin-Orizzonte-Pune-5188982_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2025/01/08/Project-Photo-66-Yashwin-Orizzonte-Pune-5188982_768_1020_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -4547,7 +4612,11 @@ export const societyProfiles = [
     "remarks": "Panchshil waterfront address; among Pune's most premium",
     "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2019/02/20/Project-Photo-14-Eon-Waterfront-Pune-5019801_345_1366_600_900.jpg",
     "gallery": [
-      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2019/02/20/Project-Photo-14-Eon-Waterfront-Pune-5019801_345_1366_600_900.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2019/02/20/Project-Photo-14-Eon-Waterfront-Pune-5019801_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2019/02/20/Project-Photo-14-Eon-Waterfront-Pune-5019801_345_1366_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/2019/02/20/Project-Photo-14-Eon-Waterfront-Pune-5019801_345_1366.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/Project-Photo-2-Eon-Waterfront-Pune-5019801_871_1200_470_1080.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2022/12/08/Project-Photo-28-Eon-Waterfront-Pune-5019801_2000_1500_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -4685,7 +4754,8 @@ export const societyProfiles = [
     "gallery": [
       "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2025/01/17/Project-Photo-1-Mahindra-IvyLush-Pune-5426341_410_1440_600_900.jpg",
       "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2025/01/17/Project-Photo-6-Mahindra-IvyLush-Pune-5426341_479_1120_310_462.jpg",
-      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2025/01/17/Project-Photo-4-Mahindra-IvyLush-Pune-5426341_479_1120_310_462.jpg"
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2025/01/17/Project-Photo-4-Mahindra-IvyLush-Pune-5426341_479_1120_310_462.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h470_w1080/2025/01/17/Project-Photo-1-Mahindra-IvyLush-Pune-5426341_410_1440_470_1080.jpg"
     ],
     "photoStatus": "verified-photo-url"
   },
@@ -5468,145 +5538,9 @@ export const societyProfiles = [
   }
 ];
 
-export const societySegments = [
-  "Affordable",
-  "Affordable Housing",
-  "Affordable Luxury",
-  "Affordable Premium",
-  "Affordable Residential",
-  "Affordable Smart Homes",
-  "Affordable-Mid",
-  "Boutique Premium",
-  "Budget",
-  "Budget Residential",
-  "Budget-Mid",
-  "Child-Centric Premium Township",
-  "Commercial+Residential",
-  "Commercial-Residential",
-  "Contemporary Living",
-  "Cooperative Old",
-  "Eco-Mid",
-  "Flexible Living",
-  "Future Ultra Luxury",
-  "Green Luxury",
-  "Green Smart Homes",
-  "Green Township",
-  "High-End Luxury",
-  "IT-Integrated Township",
-  "Lifestyle Project",
-  "Luxury",
-  "Luxury Apartments",
-  "Luxury High-Rise",
-  "Luxury Lifestyle",
-  "Luxury Mid-Segment",
-  "Luxury Ongoing",
-  "Luxury Premium",
-  "Luxury Residential",
-  "Luxury Riverfront",
-  "Luxury Riverside",
-  "Luxury Smart Homes",
-  "Luxury Towers",
-  "Mid Luxury",
-  "Mid Premium",
-  "Mid Residential",
-  "Mid Segment",
-  "Mid Township",
-  "Mid-Premium",
-  "Mixed-Use Luxury",
-  "Mixed-Use Township",
-  "Modern Lifestyle",
-  "Modern Premium",
-  "Modern Residential",
-  "New Launch",
-  "New Launch Ultra",
-  "New Premium Launch",
-  "Old Mid-Premium",
-  "Old Premium",
-  "Old Residential",
-  "Old-Mid Society",
-  "Ongoing Premium",
-  "Premium Apartments",
-  "Premium Green Living",
-  "Premium Green Township",
-  "Premium High-Rise",
-  "Premium Lifestyle",
-  "Premium Luxury",
-  "Premium Mid-Luxury",
-  "Premium Old Society",
-  "Premium Ongoing",
-  "Premium Ready",
-  "Premium Residential",
-  "Premium Township",
-  "Premium Urban Living",
-  "Residential",
-  "Residential Apartment",
-  "Residential Premium",
-  "Riverfront Luxury",
-  "Riverfront Premium",
-  "Singaporean-Inspired Luxury",
-  "Smart Affordable",
-  "Smart Luxury",
-  "Smart Mid-Luxury",
-  "Smart Premium",
-  "Township Premium",
-  "Ultra Luxury",
-  "Ultra Luxury Residential",
-  "Ultra Luxury Villas",
-  "Ultra Premium",
-  "Ultra Premium Township",
-  "Ultra Premium Upcoming",
-  "Upcoming Luxury Township",
-  "Upcoming Premium",
-  "Upper Kharadi Premium"
-];
-
-export const societyZones = [
-  "Acolade Road",
-  "BU Bhandari Acolade, Kharadi",
-  "Bypass Road, Kharadi",
-  "Central Kharadi",
-  "Chandan Nagar, Kharadi",
-  "EON Free Zone",
-  "EON IT Corridor",
-  "EON IT Park Area",
-  "EON Waterfront, Kharadi",
-  "Kharadi",
-  "Kharadi / Katraj Bypass",
-  "Kharadi / Nagar Road",
-  "Kharadi Central",
-  "Kharadi IT Hub",
-  "Kharadi Main",
-  "Kharadi Periphery",
-  "Kharadi South Main Road",
-  "Near EON Corridor",
-  "Near EON Free Zone",
-  "Near EON IT Park",
-  "Near Radisson Hotel, Kharadi",
-  "Off Kharadi-Magarpatta Road",
-  "Riverfront / EON",
-  "Riverfront / Kharadi",
-  "Riverfront Road",
-  "Riverfront, Kharadi",
-  "Tulaja Bhawani Nagar, Kharadi",
-  "Upper Kharadi",
-  "Vitthal Nagar, Kharadi"
-];
-
 export const societyStats = [
-  {
-    "value": "160+",
-    "label": "society guides"
-  },
-  {
-    "value": "89",
-    "label": "market segments"
-  },
-  {
-    "value": "2025-26",
-    "label": "database period"
-  },
-  {
-    "value": "Noindex",
-    "label": "private build mode"
-  }
+  { value: "160", label: "Kharadi societies" },
+  { value: "9", label: "micro-markets covered" },
+  { value: "24/7", label: "private research site" },
+  { value: "No-index", label: "search visibility" },
 ];
