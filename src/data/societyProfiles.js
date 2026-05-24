@@ -5379,8 +5379,8 @@ export const societyProfiles = [
 ];
 
 export const societyStats = [
-  { value: "160", label: "Kharadi societies" },
-  { value: "9", label: "micro-markets covered" },
-  { value: "24/7", label: "private research site" },
-  { value: "Live", label: "society blog library" },
+  { value: "160+", label: "societies" },
+  { value: "Best price", label: "ultra luxury societies" },
+  { value: "1-4 BHK", label: "studio apartments, homes, and flats at one place" },
+  { value: "Easy", label: "to buy" },
 ];
