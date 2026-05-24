@@ -3,7 +3,6 @@ import {
   ArrowRight,
   Building2,
   CheckCircle2,
-  ExternalLink,
   Home,
   IndianRupee,
   MapPin,
@@ -29,6 +28,8 @@ const segmentFilters = [
     .slice(0, 7)
     .map(([segment]) => segment),
 ];
+
+const siteName = "Kharadi Properties";
 
 function displayValue(value, fallback = "On request") {
   if (!value || value === "-" || value === "—") return fallback;
@@ -71,8 +72,8 @@ function App() {
 
   useEffect(() => {
     document.title = selectedSociety
-      ? `${selectedSociety.name} Kharadi | kharadi properties`
-      : "kharadi properties";
+      ? `${selectedSociety.name} Kharadi | ${siteName}`
+      : siteName;
   }, [selectedSociety]);
 
   if (selectedSociety) {
@@ -85,9 +86,9 @@ function App() {
 function SiteHeader() {
   return (
     <header className="site-header">
-      <a className="brand" href="#top" aria-label="kharadi properties home">
+      <a className="brand" href="#top" aria-label="Kharadi Properties home">
         <span className="brand-mark"><Building2 size={22} /></span>
-        <span>kharadi properties</span>
+        <span>{siteName}</span>
       </a>
       <nav aria-label="Main navigation">
         <a href="#guides">Society Guides</a>
@@ -130,15 +131,15 @@ function HomePage() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">160 society guides for Kharadi and Upper Kharadi</p>
-          <h1>kharadi properties</h1>
+          <h1>{siteName}</h1>
           <p className="hero-text">
-            A private, no-index property intelligence site with detailed society blogs, price notes, rent ranges, amenities, location context, and photo research links.
+            A private, no-index property intelligence site with detailed society blogs, price notes, rent ranges, amenities, location context, and curated society visuals.
           </p>
           <div className="hero-actions">
             <a className="primary-button" href="#guides">
               Explore society guides <ArrowRight size={18} />
             </a>
-            <a className="secondary-button" href="#photo-research">Open photo research</a>
+            <a className="secondary-button" href="#photo-research">View society visuals</a>
           </div>
         </div>
         <div className="search-panel" aria-label="Society guide search">
@@ -239,15 +240,15 @@ function HomePage() {
       <section className="photo-research-section" id="photo-research">
         <div>
           <p className="eyebrow">Google Images workflow</p>
-          <h2>HD photo research for every society</h2>
+          <h2>Society photos inside the pages</h2>
           <p>
-            Every society page includes a direct HD Google Images search for society exteriors, flats, amenities, and local visuals. Verified photos can be added into the gallery as you approve them.
+            The visible Google search links are removed. Where reliable society/project photo URLs are available, the guide pages show those images directly in the gallery.
           </p>
         </div>
         <div className="engine-grid">
-          <div><Sparkles /> Search society name plus Kharadi, flats, amenities, and HD photos.</div>
+          <div><Sparkles /> Real project and flat photos are shown directly inside the page.</div>
           <div><ShieldCheck /> Keep the site no-index while the content and photos are being prepared.</div>
-          <div><CheckCircle2 /> Replace visual placeholders with approved society photos later.</div>
+          <div><CheckCircle2 /> Generic stock apartment photos have been removed from society pages.</div>
           <div><TrendingUp /> Use the same guide pages for future property selling services.</div>
         </div>
       </section>
@@ -266,7 +267,7 @@ function HomePage() {
       </section>
 
       <footer>
-        <strong>kharadi properties</strong>
+        <strong>{siteName}</strong>
         <span>Kharadi, Pune society blogs today. Property services tomorrow.</span>
       </footer>
     </main>
@@ -318,9 +319,9 @@ function SocietyGuide({ society }) {
           <Fact label="Rent estimate" value={society.monthlyRent} />
           <Fact label="Rental yield" value={society.rentalYield} />
           <Fact label="Investment" value={society.investmentPotential} />
-          <a className="primary-button panel-button" href={society.imageSearchUrl} target="_blank" rel="noreferrer">
-            HD photo search <ExternalLink size={17} />
-          </a>
+          <span className={society.photoStatus === "verified-photo-url" ? "photo-status ready" : "photo-status"}>
+            {society.photoStatus === "verified-photo-url" ? "Photos added" : "Photos pending review"}
+          </span>
         </aside>
 
         <article className="society-article">
@@ -379,19 +380,19 @@ function SocietyGuide({ society }) {
           <section>
             <p className="eyebrow">Photo board</p>
             <h2>Society and flat visuals</h2>
-            <div className="gallery-grid">
-              {society.gallery.map((image, index) => (
-                <img src={image} alt={`${society.name} visual ${index + 1}`} key={image} />
-              ))}
-            </div>
-            <div className="photo-actions">
-              <a href={society.imageSearchUrl} target="_blank" rel="noreferrer">
-                Search {society.name} HD society photos <ExternalLink size={16} />
-              </a>
-              <a href={`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${society.name} Kharadi flat interiors`)}`} target="_blank" rel="noreferrer">
-                Search flat interiors <ExternalLink size={16} />
-              </a>
-            </div>
+            {society.gallery.length > 0 ? (
+              <div className={`gallery-grid count-${society.gallery.length}`}>
+                {society.gallery.map((image, index) => (
+                  <img src={image} alt={`${society.name} visual ${index + 1}`} key={image} />
+                ))}
+              </div>
+            ) : (
+              <div className="gallery-pending">
+                <Building2 size={38} />
+                <strong>{society.name} photos are pending verification</strong>
+                <span>Generic apartment placeholders were removed so this page does not show wrong society visuals.</span>
+              </div>
+            )}
           </section>
 
           <section>
@@ -442,7 +443,7 @@ function SocietyGuide({ society }) {
       </section>
 
       <footer>
-        <strong>kharadi properties</strong>
+        <strong>{siteName}</strong>
         <span>{society.name} society guide</span>
       </footer>
     </main>

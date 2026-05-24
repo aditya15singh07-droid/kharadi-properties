@@ -1,4 +1,4 @@
-# kharadi properties
+# Kharadi Properties
 
 A Vite + React property blog website for Kharadi, Pune. This version includes 160 generated society guide pages from the Kharadi society database, with price notes, rent estimates, amenities, buyer profile, investment view, and photo research links.
 
@@ -29,7 +29,9 @@ The current society guide UI uses generated local data from `src/data/societyPro
 
 - Main society pages are generated from `src/data/societyProfiles.js`.
 - Source spreadsheet: `Kharadi_160_Societies_Complete_Database.xlsx`.
-- Each society page includes direct Google Images search links for HD society and flat photos.
+- Visible Google Images search links are removed from the site.
+- Where reliable project/property photo URLs were available, society pages show those images directly.
+- Societies without a verified image URL show a pending-photo panel instead of a misleading stock image.
 
 ## Vercel deployment
 

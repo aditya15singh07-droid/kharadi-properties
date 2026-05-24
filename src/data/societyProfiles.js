@@ -34,13 +34,12 @@ export const societyProfiles = [
     "broker": "Marvel Realtors Sales Office",
     "brokerPhone": "020-67218400",
     "remarks": "Flagship Marvel project; 6.15 acres; home automation; near EON; RERA registered; one of Kharadi's best-rated societies",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Marvel+Cerise+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h310_w462/Project-Photo-50-Marvel-Cerise-Pune-5020543_480_1366_310_462.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/Project-Photo-50-Marvel-Cerise-Pune-5020543_480_1366_310_462.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Feb/16/Photo_h600_w900/83259237_1_1771231386507-959_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 2,
@@ -74,13 +73,13 @@ export const societyProfiles = [
     "broker": "Panchshil Realty Direct",
     "brokerPhone": "020-30588888",
     "remarks": "Iconic landmark; penthouses among Pune's most expensive",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Panchshil+Towers+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/11/27/Project-Photo-17-Panchshil-Towers-Pune-5019803_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/11/27/Project-Photo-17-Panchshil-Towers-Pune-5019803_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2022/09/21/Project-Photo-33-Panchshil-Towers-Pune-5019803_1080_1920_310_462.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/08/Photo_h600_w900/82487929_1_PropertyImage485-5611782394176_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 3,
@@ -113,13 +112,11 @@ export const societyProfiles = [
     "broker": "Nyati Group Office",
     "brokerPhone": "020-26876100",
     "remarks": "High rental demand; near EON Free Zone",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Nyati+Elysia+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/10/22/Project-Photo-1-Nyati-Elysia-2-Pune-5153159_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/10/22/Project-Photo-1-Nyati-Elysia-2-Pune-5153159_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 4,
@@ -151,13 +148,11 @@ export const societyProfiles = [
     "broker": "Duville Estates",
     "brokerPhone": "020-66047777",
     "remarks": "Strong appreciation; premium riverfront micro-market",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Riverdale+Residences+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/01/Project-Photo-5-Riverdale-Residences-Pune-5125457_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/01/Project-Photo-5-Riverdale-Residences-Pune-5125457_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 5,
@@ -191,13 +186,9 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "Large township; family-oriented; strong occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera+Emerald+City+South+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 6,
@@ -229,13 +220,12 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "Good for long-term investment; township connectivity",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera+World+of+Joy+%28Pulppride%29+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/07/01/Project-Photo-31-Gera-World-of-Joy-Pune-5126679_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/07/01/Project-Photo-31-Gera-World-of-Joy-Pune-5126679_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/May/05/Photo_h600_w900/84519361_1_PropertyImage143-31411967726905_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 7,
@@ -267,13 +257,11 @@ export const societyProfiles = [
     "broker": "Unique Properties",
     "brokerPhone": "9850XXXXXX",
     "remarks": "Popular among millennials; smart home features",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Unique+Youtopia+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/01/11/Project-Photo-1-Unique-Youtopia-Pune-5325149_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/01/11/Project-Photo-1-Unique-Youtopia-Pune-5325149_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 8,
@@ -306,13 +294,12 @@ export const societyProfiles = [
     "broker": "Alcon Group",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Mature society; well-maintained; good resale",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Alcon+Rennaisant+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVN99s9ds753em0GBQZwfOlc8Grw00s/Photo_h600_w900/84803955_16_2Bed1_600_900.jpeg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVN99s9ds753em0GBQZwfOlc8Grw00s/Photo_h600_w900/84803955_16_2Bed1_600_900.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnzVE88E9dcjrVIXoRozECTNqPHIQR31V/Photo_h600_w900/75667959_11_PropertyImage1659612905529_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 9,
@@ -343,13 +330,9 @@ export const societyProfiles = [
     "broker": "Pittie Group",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Spacious internal roads; family-oriented planning",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Pittie+Kourtyard+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 10,
@@ -381,13 +364,11 @@ export const societyProfiles = [
     "broker": "Gulmohar Dev.",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Strong builder reputation; premium landscaping",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gulmohar+Queenstown+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnzVE88E9dcjrVIXoRozECTNqPHIQR31V/Photo_h600_w900/75666815_2_PropertyImage359-53062466799577_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnzVE88E9dcjrVIXoRozECTNqPHIQR31V/Photo_h600_w900/75666815_2_PropertyImage359-53062466799577_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 11,
@@ -418,13 +399,9 @@ export const societyProfiles = [
     "broker": "Gulmohar Dev.",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Good resale liquidity; strong rental demand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gulmohar+City+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 12,
@@ -454,13 +431,9 @@ export const societyProfiles = [
     "broker": "Gulmohar Dev.",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Good family occupancy; mature residential area",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gulmohar+Orchids+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 13,
@@ -492,13 +465,9 @@ export const societyProfiles = [
     "broker": "Yin Yang Builders",
     "brokerPhone": "9763XXXXXX",
     "remarks": "Contemporary design; lifestyle-oriented project",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Yin+Yang+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 14,
@@ -530,13 +499,11 @@ export const societyProfiles = [
     "broker": "Prasun Group",
     "brokerPhone": "9922XXXXXX",
     "remarks": "Large society; good family occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Prasun+Sarvam+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/02/25/Project-Photo-33-Prasun-Sarvam-Pune-5125357_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/02/25/Project-Photo-33-Prasun-Sarvam-Pune-5125357_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 15,
@@ -567,13 +534,9 @@ export const societyProfiles = [
     "broker": "Rakshak Housing",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Highest rental yield; proximity to IT parks",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Rakshak+Nagar+Phase+2+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 16,
@@ -604,13 +567,9 @@ export const societyProfiles = [
     "broker": "Beryl Developers",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Good central location; accessible to EON",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Beryl+Apartment+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 17,
@@ -641,13 +600,11 @@ export const societyProfiles = [
     "broker": "Blue Berry Dev.",
     "brokerPhone": "9767XXXXXX",
     "remarks": "Good for rental investors; budget option",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Blue+Berry+Co-Operative+Society+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnzVE88E9dcjrVIXoRozECTNqPHIQR31V/Photo_h600_w900/75661625_5_roject-Photo-22-Blue-Berry-Pune-5005557_1024_768_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnzVE88E9dcjrVIXoRozECTNqPHIQR31V/Photo_h600_w900/75661625_5_roject-Photo-22-Blue-Berry-Pune-5005557_1024_768_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 18,
@@ -677,13 +634,9 @@ export const societyProfiles = [
     "broker": "Guruvista Dev.",
     "brokerPhone": "9922XXXXXX",
     "remarks": "Limited inventory; good affordability",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Guruvista+Housing+Society+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 19,
@@ -713,13 +666,9 @@ export const societyProfiles = [
     "broker": "Springfield Dev.",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Older but stable; strong occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Springfield+Society+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 20,
@@ -750,13 +699,9 @@ export const societyProfiles = [
     "broker": "Dev Group",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Mature residential community; good family zone",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Dev+Exotica+Co-Op+Housing+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 21,
@@ -786,13 +731,9 @@ export const societyProfiles = [
     "broker": "Sai Developers",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Compact homes; good for first-time buyers",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Sai+Enclave+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 22,
@@ -824,13 +765,11 @@ export const societyProfiles = [
     "broker": "Goel Ganga Group",
     "brokerPhone": "020-26876200",
     "remarks": "High rental yield; near EON IT corridor",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Ganga+Platino+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/15/Project-Photo-123-Ganga-Platino-Pune-5028770_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/15/Project-Photo-123-Ganga-Platino-Pune-5028770_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 23,
@@ -861,13 +800,11 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Premium high-rise project; strong VTP brand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Altair+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/09/01/Project-Photo-1-VTP-Altair-Pune-5302603_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/09/01/Project-Photo-1-VTP-Altair-Pune-5302603_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 24,
@@ -898,13 +835,9 @@ export const societyProfiles = [
     "broker": "Majestique Group",
     "brokerPhone": "020-26876300",
     "remarks": "Good inventory availability; stable market",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Majestique+Towers+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 25,
@@ -935,13 +868,9 @@ export const societyProfiles = [
     "broker": "Langston Dev.",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Luxury apartments; premium architecture",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Downtown+Langston+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 26,
@@ -974,13 +903,13 @@ export const societyProfiles = [
     "broker": "Godrej Properties",
     "brokerPhone": "1800-270-0000",
     "remarks": "Upcoming landmark by Godrej; ultra premium",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Godrej+Ivara+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2026/02/23/Project-Photo-10-Godrej-Ivara-Pune-5445221_541_1152_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2026/02/23/Project-Photo-10-Godrej-Ivara-Pune-5445221_541_1152_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2026/02/23/Project-Photo-21-Godrej-Ivara-Pune-5445221_501_873_310_462.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2026/02/23/Project-Photo-7-Godrej-Ivara-Pune-5445221_475_634_310_462.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 27,
@@ -1012,13 +941,11 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "Strong rental demand; good resale liquidity",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera%27s+Park+View+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnzVE88E9dcjrVIXoRozECTNqPHIQR31V/Photo_h600_w900/75666981_3_PropertyImage476-75617012369764_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnzVE88E9dcjrVIXoRozECTNqPHIQR31V/Photo_h600_w900/75666981_3_PropertyImage476-75617012369764_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 28,
@@ -1050,13 +977,9 @@ export const societyProfiles = [
     "broker": "My Home Group",
     "brokerPhone": "9848XXXXXX",
     "remarks": "Upper Kharadi growth corridor; high appreciation",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=MY+HOME+Upper+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 29,
@@ -1087,13 +1010,9 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "High rental yield; popular among IT professionals",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera%27s+Imperium+Alpha+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 30,
@@ -1123,13 +1042,9 @@ export const societyProfiles = [
     "broker": "PMHADA / PMC",
     "brokerPhone": "020-26123456",
     "remarks": "Budget-focused; high occupancy rates",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Shivneri+PMAY+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 31,
@@ -1161,13 +1076,9 @@ export const societyProfiles = [
     "broker": "Lodha Group",
     "brokerPhone": "022-61364444",
     "remarks": "High appreciation potential; Lodha quality benchmark",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Lodha+Upper+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 32,
@@ -1198,13 +1109,9 @@ export const societyProfiles = [
     "broker": "Kohinoor Group",
     "brokerPhone": "020-26876400",
     "remarks": "Strong investment demand; upcoming luxury zone",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kohinoor+Riverdale+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 33,
@@ -1235,13 +1142,11 @@ export const societyProfiles = [
     "broker": "Neco Group",
     "brokerPhone": "9833XXXXXX",
     "remarks": "IT employee preference; good social infrastructure",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Neco+Park+Central+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/10/25/Project-Photo-1-Neco-Park-Central-Pune-5424305_410_1440_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/10/25/Project-Photo-1-Neco-Park-Central-Pune-5424305_410_1440_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 34,
@@ -1272,13 +1177,13 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Smart home features; growing upper Kharadi zone",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Dolce+Vita+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/09/27/Project-Photo-1-VTP-Dolce-Vita-Pune-5417097_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/09/27/Project-Photo-1-VTP-Dolce-Vita-Pune-5417097_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2023/09/27/Project-Photo-1-VTP-Dolce-Vita-Pune-5417097_345_1366_310_462.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2023/09/27/Project-Photo-13-VTP-Dolce-Vita-Pune-5417097_600_800_310_462.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 35,
@@ -1309,13 +1214,12 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Young buyer demand; affordable luxury positioning",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Euphoria+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/07/25/Project-Photo-16-VTP-Euphoria-Pune-5325819_410_1440_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/07/25/Project-Photo-16-VTP-Euphoria-Pune-5325819_410_1440_600_900.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/09/Photo_h600_w900/82501583_5_hatsAppImage20251129at12.52.24PM8_600_900.jpeg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 36,
@@ -1347,13 +1251,11 @@ export const societyProfiles = [
     "broker": "VJ Developers",
     "brokerPhone": "020-26876500",
     "remarks": "Central Kharadi location; premium amenities",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VJ+Palladio+Kharadi+Central+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/05/10/Project-Photo-1-Palladio-Kharadi-Central-Pune-5407361_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/05/10/Project-Photo-1-Palladio-Kharadi-Central-Pune-5407361_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 37,
@@ -1385,13 +1287,9 @@ export const societyProfiles = [
     "broker": "Kohinoor Group",
     "brokerPhone": "020-26876400",
     "remarks": "Strong resale potential; growing brand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kohinoor+Kaleido+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 38,
@@ -1422,13 +1320,11 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "VTP Luxe brand; high-end positioning",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Flamante+by+VTP+Luxe+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/07/17/Project-Photo-1-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/07/17/Project-Photo-1-Flamante-By-VTP-Luxe-Phase-1-Pune-5415831_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 39,
@@ -1459,13 +1355,11 @@ export const societyProfiles = [
     "broker": "Gagan Group",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Suitable for families; good rental demand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gagan+Avencia+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2018/10/25/Project-Photo-14-Gagan-Avencia-Pune-5097337_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2018/10/25/Project-Photo-14-Gagan-Avencia-Pune-5097337_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 40,
@@ -1497,13 +1391,9 @@ export const societyProfiles = [
     "broker": "Nirman Group",
     "brokerPhone": "9922XXXXXX",
     "remarks": "Good appreciation zone; spacious layouts",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Nirman+Altius+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 41,
@@ -1533,13 +1423,9 @@ export const societyProfiles = [
     "broker": "Global Group",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Investor-friendly project; new-age amenities",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Global+Precioso+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 42,
@@ -1570,13 +1456,9 @@ export const societyProfiles = [
     "broker": "Mahalaxmi Dev.",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Future luxury corridor; strong long-term investment",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Mahalaxmi+Zen+Estate+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 43,
@@ -1607,13 +1489,9 @@ export const societyProfiles = [
     "broker": "Promenade Dev.",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Strong occupancy rate; near Acolade Road",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Promenade+Co-Op+Housing+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 44,
@@ -1643,13 +1521,9 @@ export const societyProfiles = [
     "broker": "Acolade Dev.",
     "brokerPhone": "9763XXXXXX",
     "remarks": "Popular among IT employees; strong rental market",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Acolade+Society+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 45,
@@ -1680,13 +1554,9 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Part of VTP Pegasus township; premium positioning",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Altamira+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 46,
@@ -1716,13 +1586,9 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Upper Kharadi growth zone; clubhouse focus",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Aurelia+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 47,
@@ -1754,13 +1620,9 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Ultra luxury villa concept; rare product in Kharadi",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Velvet+Villas+by+VTP+Luxe+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 48,
@@ -1790,13 +1652,9 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Good rental potential; township connectivity",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Cygnus+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 49,
@@ -1827,13 +1685,9 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Luxury interiors; skyline-facing apartments",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Beaumonde+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 50,
@@ -1864,13 +1718,11 @@ export const societyProfiles = [
     "broker": "Lodha Group",
     "brokerPhone": "022-61364444",
     "remarks": "Lodha brand; high-end buyer segment; ultra luxury",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Lodha+Estilo+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/12/27/Project-Photo-1-Lodha-Estilo-Pune-5418287_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2023/12/27/Project-Photo-1-Lodha-Estilo-Pune-5418287_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 51,
@@ -1901,13 +1753,13 @@ export const societyProfiles = [
     "broker": "Lodha Group",
     "brokerPhone": "022-61364444",
     "remarks": "Branded green development; strong appreciation",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Lodha+Giardino+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/02/13/Project-Photo-1-Lodha-Giardino-Pune-5419023_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/02/13/Project-Photo-1-Lodha-Giardino-Pune-5419023_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2024/02/13/Project-Photo-8-Lodha-Giardino-Pune-5419023_384_800_310_462.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/01/Photo_h600_w900/84014297_2_PropertyImage986-1044733538833_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 52,
@@ -1938,13 +1790,11 @@ export const societyProfiles = [
     "broker": "Goel Ganga Group",
     "brokerPhone": "020-26876200",
     "remarks": "Premium amenities; near EON corridor",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Ganga+Altus+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/03/11/Project-Photo-1-Ganga-Altus-Pune-5144269_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/03/11/Project-Photo-1-Ganga-Altus-Pune-5144269_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 53,
@@ -1975,13 +1825,11 @@ export const societyProfiles = [
     "broker": "Goel Ganga Group",
     "brokerPhone": "020-26876200",
     "remarks": "Possession ~2027; premium skyline towers",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Goel+Ganga+Platinum+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/30/Project-Photo-14-Ganga-Platinum-Pune-5325037_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/30/Project-Photo-14-Ganga-Platinum-Pune-5325037_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 54,
@@ -2012,13 +1860,11 @@ export const societyProfiles = [
     "broker": "Duville Estates",
     "brokerPhone": "020-66047777",
     "remarks": "High appreciation project; luxury positioning",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Duville+Riverdale+Grand+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/25/Project-Photo-5-Riverdale-Grand-Pune-5335215_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/25/Project-Photo-5-Riverdale-Grand-Pune-5335215_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 55,
@@ -2050,13 +1896,11 @@ export const societyProfiles = [
     "broker": "Pristine Properties",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Suitable for professionals; good social infrastructure",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Pristine+Allure+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/22/Project-Photo-14-Pristine-Allure-Pune-5332839_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/22/Project-Photo-14-Pristine-Allure-Pune-5332839_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 56,
@@ -2087,13 +1931,11 @@ export const societyProfiles = [
     "broker": "Palm Group",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Strong resale demand; family-friendly environment",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Palm+Drive+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2025/03/25/Project-Photo-1-Palm-Drive-Pune-5429647_410_1440_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2025/03/25/Project-Photo-1-Palm-Drive-Pune-5429647_410_1440_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 57,
@@ -2123,13 +1965,11 @@ export const societyProfiles = [
     "broker": "Prasun Group",
     "brokerPhone": "9922XXXXXX",
     "remarks": "Popular among young buyers; new-age amenities",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Prasun+Adara+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/08/23/Project-Photo-1-Prasun-Adara-Pune-5422787_410_1440_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/08/23/Project-Photo-1-Prasun-Adara-Pune-5422787_410_1440_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 58,
@@ -2160,13 +2000,9 @@ export const societyProfiles = [
     "broker": "K Raheja Corp",
     "brokerPhone": "022-67000400",
     "remarks": "5-acre mixed-use; K Raheja quality benchmark",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Constella+by+K+Raheja+Corp+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 59,
@@ -2196,13 +2032,9 @@ export const societyProfiles = [
     "broker": "Sobha Limited",
     "brokerPhone": "1800-120-2001",
     "remarks": "Premium Sobha quality; strong luxury demand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Sobha+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 60,
@@ -2232,13 +2064,9 @@ export const societyProfiles = [
     "broker": "Xrbia Developers",
     "brokerPhone": "9921XXXXXX",
     "remarks": "Smart affordable homes; entry-level segment",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Xrbia+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 61,
@@ -2270,13 +2098,9 @@ export const societyProfiles = [
     "broker": "Mahindra Lifespace",
     "brokerPhone": "022-67478600",
     "remarks": "Mahindra brand assurance; affordable quality",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Mahindra+Happinest+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 62,
@@ -2308,13 +2132,9 @@ export const societyProfiles = [
     "broker": "Rohan Builders",
     "brokerPhone": "020-41021111",
     "remarks": "Established Rohan brand; good connectivity",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Rohan+Ananta+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 63,
@@ -2345,13 +2165,9 @@ export const societyProfiles = [
     "broker": "SP Group",
     "brokerPhone": "022-61661800",
     "remarks": "SP brand; premium township development",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Shapoorji+Pallonji+Joyville+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 64,
@@ -2382,13 +2198,9 @@ export const societyProfiles = [
     "broker": "Hubtown",
     "brokerPhone": "022-66303000",
     "remarks": "Luxury high-rise; panoramic views",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Pinnacle+Grand+By+Hubtown+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 65,
@@ -2418,13 +2230,9 @@ export const societyProfiles = [
     "broker": "Kolte Patil Developers",
     "brokerPhone": "020-66474747",
     "remarks": "IT-themed smart homes; Kolte Patil quality",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kolte+Patil+iTowers+Exente+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 66,
@@ -2455,13 +2263,9 @@ export const societyProfiles = [
     "broker": "VJ Developers",
     "brokerPhone": "020-26876500",
     "remarks": "Good appreciation; VJ brand reputation",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Vilas+Javdekar+Portia+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 67,
@@ -2491,13 +2295,9 @@ export const societyProfiles = [
     "broker": "Vascon Engineers",
     "brokerPhone": "020-66075000",
     "remarks": "Vascon brand; lush green campus",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Vascon+Windflower+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 68,
@@ -2529,13 +2329,9 @@ export const societyProfiles = [
     "broker": "Pharande Spaces",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Green living concept; eco-conscious development",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Pharande+Woodsville+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 69,
@@ -2566,13 +2362,9 @@ export const societyProfiles = [
     "broker": "Krishala Developers",
     "brokerPhone": "9881XXXXXX",
     "remarks": "IoT-enabled smart homes; luxury positioning",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Krishala+41+Opus+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 70,
@@ -2603,13 +2395,9 @@ export const societyProfiles = [
     "broker": "Runwal Group",
     "brokerPhone": "022-61360000",
     "remarks": "Runwal brand; forest-themed premium society",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Runwal+Forests+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 71,
@@ -2640,13 +2428,9 @@ export const societyProfiles = [
     "broker": "Saarrthi Group",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Sky lounge; panoramic views of Kharadi",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Saarrthi+Skybay+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 72,
@@ -2678,13 +2462,9 @@ export const societyProfiles = [
     "broker": "Nyati Group Office",
     "brokerPhone": "020-26876100",
     "remarks": "Nyati brand; well-located; good rental demand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Nyati+Enclave+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 73,
@@ -2715,13 +2495,9 @@ export const societyProfiles = [
     "broker": "Marvel Realtors",
     "brokerPhone": "020-67218400",
     "remarks": "Marvel brand; good IT employee demand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Marvel+Fria+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 74,
@@ -2753,13 +2529,9 @@ export const societyProfiles = [
     "broker": "Paranjape Schemes",
     "brokerPhone": "020-66021800",
     "remarks": "Paranjape brand; strong occupancy; good location",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Paranjape+Blue+Ridge+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 75,
@@ -2789,13 +2561,9 @@ export const societyProfiles = [
     "broker": "Aashiyana Dev.",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Budget option; high rental demand from workers",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Aashiyana+Homes+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 76,
@@ -2825,13 +2593,9 @@ export const societyProfiles = [
     "broker": "Sunteck Realty",
     "brokerPhone": "022-42006100",
     "remarks": "Sunteck brand; ultra luxury positioning in Kharadi",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Sunteck+Sky+Residences+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 77,
@@ -2863,13 +2627,9 @@ export const societyProfiles = [
     "broker": "Rustomjee Group",
     "brokerPhone": "022-60756075",
     "remarks": "Rustomjee brand; wellness-focused development",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Rustomjee+Elements+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 78,
@@ -2901,13 +2661,9 @@ export const societyProfiles = [
     "broker": "Puravankara Ltd",
     "brokerPhone": "080-46464646",
     "remarks": "Puravankara brand; modern premium in upper Kharadi",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Puravankara+Purva+Elements+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 79,
@@ -2939,13 +2695,9 @@ export const societyProfiles = [
     "broker": "Tata Housing",
     "brokerPhone": "022-66024444",
     "remarks": "Tata brand assurance; affordable to mid-premium",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Tata+Housing+New+Haven+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 80,
@@ -2976,13 +2728,9 @@ export const societyProfiles = [
     "broker": "L&T Realty",
     "brokerPhone": "1800-212-3100",
     "remarks": "L&T brand; ultra premium; strong NRI demand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=L%26T+Realty+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 81,
@@ -3014,13 +2762,9 @@ export const societyProfiles = [
     "broker": "DY Patil Group",
     "brokerPhone": "020-40117900",
     "remarks": "Near DY Patil university; good educational hub",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=DY+Patil+Residences+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 82,
@@ -3052,13 +2796,9 @@ export const societyProfiles = [
     "broker": "Kalpataru Ltd",
     "brokerPhone": "022-30266000",
     "remarks": "Kalpataru brand; premium high-rise development",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kalpataru+Vista+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 83,
@@ -3089,13 +2829,9 @@ export const societyProfiles = [
     "broker": "Prestige Group",
     "brokerPhone": "080-40001000",
     "remarks": "Prestige brand; ultra luxury; strong appreciation",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Prestige+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 84,
@@ -3126,13 +2862,9 @@ export const societyProfiles = [
     "broker": "Adani Realty",
     "brokerPhone": "1800-233-2345",
     "remarks": "Adani brand entry into Kharadi; premium township",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Adani+Kharadi+Residences+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 85,
@@ -3163,13 +2895,9 @@ export const societyProfiles = [
     "broker": "Birla Estates",
     "brokerPhone": "022-33301000",
     "remarks": "Birla brand; wellness-focused premium development",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Birla+Navya+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 86,
@@ -3199,13 +2927,9 @@ export const societyProfiles = [
     "broker": "Mahavir Group",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Budget-mid segment; value for money",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Mahavir+Maple+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 87,
@@ -3237,13 +2961,9 @@ export const societyProfiles = [
     "broker": "Forte Group",
     "brokerPhone": "9890XXXXXX",
     "remarks": "IT employee demand; good investment potential",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Forteasia+Heights+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 88,
@@ -3274,13 +2994,9 @@ export const societyProfiles = [
     "broker": "Bhandari Group",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Good upper Kharadi positioning; investment-friendly",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Bhandari+43+Primoris+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 89,
@@ -3312,13 +3028,9 @@ export const societyProfiles = [
     "broker": "Mantra Properties",
     "brokerPhone": "020-41022000",
     "remarks": "Mantra brand; IT professional-focused project",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Mantra+Montana+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 90,
@@ -3349,13 +3061,9 @@ export const societyProfiles = [
     "broker": "Kumar Builders",
     "brokerPhone": "020-66024444",
     "remarks": "Kumar brand; reliable builder; good connectivity",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kumar+Pinakin+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 91,
@@ -3386,13 +3094,9 @@ export const societyProfiles = [
     "broker": "Dreams Group",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Park-facing towers; green township concept",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Dreams+The+Park+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 92,
@@ -3423,13 +3127,9 @@ export const societyProfiles = [
     "broker": "Ornate Group",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Unique courtyard concept; investor-friendly",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Ornate+Courtyard+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 93,
@@ -3460,13 +3160,9 @@ export const societyProfiles = [
     "broker": "Goel Ganga Group",
     "brokerPhone": "020-26876200",
     "remarks": "Goel Ganga luxury brand; near EON IT corridor",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Ganga+Aria+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 94,
@@ -3497,13 +3193,9 @@ export const societyProfiles = [
     "broker": "Majestique Group",
     "brokerPhone": "020-26876300",
     "remarks": "Upper Kharadi corridor; landmark positioning",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Majestique+Landmark+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 95,
@@ -3535,13 +3227,9 @@ export const societyProfiles = [
     "broker": "SS Group",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Modern design; good IT zone connectivity",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=SS+Felisa+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 96,
@@ -3572,13 +3260,9 @@ export const societyProfiles = [
     "broker": "Megapolis Dev.",
     "brokerPhone": "9763XXXXXX",
     "remarks": "Smart affordable; good entry point for buyers",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Megapolis+Smart+Homes+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 97,
@@ -3610,13 +3294,9 @@ export const societyProfiles = [
     "broker": "Clover Group",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Stable mid-premium society; good occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Clover+Dale+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 98,
@@ -3647,13 +3327,9 @@ export const societyProfiles = [
     "broker": "Aratt Builders",
     "brokerPhone": "9880XXXXXX",
     "remarks": "Address brand; luxury lifestyle; sky deck views",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=The+Address+By+Aratt+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 99,
@@ -3685,13 +3361,9 @@ export const societyProfiles = [
     "broker": "Mantri Developers",
     "brokerPhone": "080-49555555",
     "remarks": "IT-themed township; co-working integrated society",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Mantri+Webcity+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 100,
@@ -3723,13 +3395,9 @@ export const societyProfiles = [
     "broker": "Indiabulls RE",
     "brokerPhone": "022-23096022",
     "remarks": "Green township concept; sustainability focus",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Indiabulls+Greens+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 101,
@@ -3761,13 +3429,9 @@ export const societyProfiles = [
     "broker": "Sky Developers",
     "brokerPhone": "9820XXXXXX",
     "remarks": "Future landmark; ultra luxury pre-launch; sky pools",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Sky+Forest+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 102,
@@ -3806,13 +3470,9 @@ export const societyProfiles = [
     "broker": "Marvel Realtors",
     "brokerPhone": "020-67218400",
     "remarks": "Low-density luxury (only 365 units on 22 acres); one of the best societies in Kharadi; home automation",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Marvel+Zephyr+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 103,
@@ -3848,13 +3508,9 @@ export const societyProfiles = [
     "broker": "Vascon Engineers / Clover Group",
     "brokerPhone": "020-66075000",
     "remarks": "Award-winning 'Environment Friendly Project'; near EON; urban resort living",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Forest+County+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 104,
@@ -3887,13 +3543,13 @@ export const societyProfiles = [
     "broker": "Marvel Realtors",
     "brokerPhone": "020-67218400",
     "remarks": "Urban chic design by Marvel; near IT hubs",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Marvel+Citrine+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/Project-Photo-27-Marvel-Citrine-Pune-5020548_488_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/Project-Photo-27-Marvel-Citrine-Pune-5020548_488_1366_600_900.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Feb/25/Photo_h600_w900/83547231_10_PropertyImage33-02409961022135_600_900.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnzVE88E9dcjrVIXoRozECTNqPHIQR31V/Photo_h600_w900/75665245_6_PropertyImage595-7137549084739_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 105,
@@ -3925,13 +3581,9 @@ export const societyProfiles = [
     "broker": "Marvel Realtors",
     "brokerPhone": "020-67218400",
     "remarks": "Built on banks of Mula-Mutha river; 22-floor luxury",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Marvel+Aquanas+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 106,
@@ -3963,13 +3615,9 @@ export const societyProfiles = [
     "broker": "Kolte Patil Developers",
     "brokerPhone": "020-66474747",
     "remarks": "Prestigious township near Radisson; Kolte Patil quality",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Tuscan+Estate+%28Kolte+Patil%29+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 107,
@@ -4001,13 +3649,9 @@ export const societyProfiles = [
     "broker": "Kolte Patil Developers",
     "brokerPhone": "020-66474747",
     "remarks": "45-acre flagship mixed-use by Kolte Patil; landmark project",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kolte+Patil+Downtown+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 108,
@@ -4040,13 +3684,12 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "100-acre child-centric township; 2, 3 & 4 BHK duplexes; 10km from Airport",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera+Island+of+Joy+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/May/22/Photo_h600_w900/84782801_6_hatsAppImage20211111at11.12.19PM_600_900.jpeg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/May/22/Photo_h600_w900/84782801_6_hatsAppImage20211111at11.12.19PM_600_900.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/May/22/Photo_h600_w900/84784125_7_hatsAppImage20250202at1.02.00PM2_600_900.jpeg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 109,
@@ -4078,13 +3721,11 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "New launch in one of Kharadi's desired locations",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera+Trinity+Towers+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Feb/25/Photo_h600_w900/83549733_6_2081517O1571119642689_600_900.jpeg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Feb/25/Photo_h600_w900/83549733_6_2081517O1571119642689_600_900.jpeg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 110,
@@ -4116,13 +3757,11 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "Gera township brand; child-centric; ongoing",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera+Song+Of+Joy+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/05/28/Project-Photo-96-Song-of-Joy-Pune-5072203_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/05/28/Project-Photo-96-Song-of-Joy-Pune-5072203_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 111,
@@ -4155,13 +3794,12 @@ export const societyProfiles = [
     "broker": "Majestique Group",
     "brokerPhone": "020-26876300",
     "remarks": "20 min from Airport; near EON IT Park & WTC; spacious",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Majestique+Evolvus+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/01/16/Project-Photo-1-Majestique-Evolvus-Pune-5418529_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/01/16/Project-Photo-1-Majestique-Evolvus-Pune-5418529_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/28/Photo_h600_w900/84425093_2_volvusImage4_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 112,
@@ -4193,13 +3831,12 @@ export const societyProfiles = [
     "broker": "Majestique Group",
     "brokerPhone": "020-26876300",
     "remarks": "Majestique luxury brand; ongoing project",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Majestique+Marbella+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/11/Project-Photo-13-Majestique-Marbella-Pune-5188454_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2020/09/11/Project-Photo-13-Majestique-Marbella-Pune-5188454_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2020/08/12/Project-Photo-6-Majestique-Marbella-Pune-5188454_684_1000_310_462.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 113,
@@ -4231,13 +3868,9 @@ export const societyProfiles = [
     "broker": "Kolte Patil Developers",
     "brokerPhone": "020-66474747",
     "remarks": "New block of Aleria project; Kolte Patil quality",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kolte+Patil+Aleria+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 114,
@@ -4269,13 +3902,13 @@ export const societyProfiles = [
     "broker": "Pristine Properties",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Upper Kharadi luxury corridor; O2-themed wellness",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Pristine+O2+World+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/04/16/Project-Photo-1-Pristine-O2-World-Pune-5419663_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2024/04/16/Project-Photo-1-Pristine-O2-World-Pune-5419663_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/28/Photo_h600_w900/84423901_14_000416994_600_900.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/28/Photo_h600_w900/84424505_1_000416968_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 115,
@@ -4307,13 +3940,9 @@ export const societyProfiles = [
     "broker": "Casagrand Builder",
     "brokerPhone": "044-61000000",
     "remarks": "Singaporean sophistication inspired; 7 similar listings",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Casagrand+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 116,
@@ -4344,13 +3973,9 @@ export const societyProfiles = [
     "broker": "Urban Senses Dev.",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Boutique project; well-connected to Acolade Road",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Urban+Senses+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 117,
@@ -4382,13 +4007,12 @@ export const societyProfiles = [
     "broker": "VJ Developers",
     "brokerPhone": "020-26876500",
     "remarks": "26-storey luxury; carpet area 720 sqft+; strong views",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Vilas+Javdekar+Yashwin+Orizzonte+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/16/Project-Photo-16-Yashwin-Orizzonte-Pune-5188982_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2022/08/16/Project-Photo-16-Yashwin-Orizzonte-Pune-5188982_345_1366_600_900.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Dec/08/Photo_h600_w900/82485987_8_PropertyImage96-25475560502328_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 118,
@@ -4421,13 +4045,9 @@ export const societyProfiles = [
     "broker": "Mantra Properties",
     "brokerPhone": "020-41022000",
     "remarks": "World-class amenities; proximity to major commercial hubs",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Mantra+Mirari+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 119,
@@ -4459,13 +4079,9 @@ export const societyProfiles = [
     "broker": "KUL / Kumar Urban Dev.",
     "brokerPhone": "020-66024444",
     "remarks": "KUL brand eco-homes; smart & green living",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=KUL+Ecoloch+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 120,
@@ -4498,13 +4114,11 @@ export const societyProfiles = [
     "broker": "Darode-Jog Properties",
     "brokerPhone": "020-67500000",
     "remarks": "Flexibility in unit types; Darode-Jog brand quality",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Darode+Jog+Liviano+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/19/Photo_h600_w900/84307733_4_hatsAppImage20260417at14.09.171_600_900.jpeg",
     "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Apr/19/Photo_h600_w900/84307733_4_hatsAppImage20260417at14.09.171_600_900.jpeg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 121,
@@ -4535,13 +4149,9 @@ export const societyProfiles = [
     "broker": "Jalan Group",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Budget residential near Kharadi Naka",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Jalan+Aura+County+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 122,
@@ -4572,13 +4182,9 @@ export const societyProfiles = [
     "broker": "Mehendra Mishra (Manager)",
     "brokerPhone": "9922XXXXXX",
     "remarks": "Near bypass; strong rental base; budget option",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Uttam+Plaza+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 123,
@@ -4608,13 +4214,9 @@ export const societyProfiles = [
     "broker": "Anand Shinde (Manager)",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Old society; stable occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Ashoka+Nagar+Society+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 124,
@@ -4646,13 +4248,9 @@ export const societyProfiles = [
     "broker": "Shinde (Manager)",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Well-maintained society; IT employee preferred",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Ritz+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 125,
@@ -4682,13 +4280,9 @@ export const societyProfiles = [
     "broker": "Ravi (Manager)",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Near EON IT Park; good for IT employees",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=EKAIKA+Society+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 126,
@@ -4720,13 +4314,9 @@ export const societyProfiles = [
     "broker": "Khandhar (Manager)",
     "brokerPhone": "020-67218400",
     "remarks": "Marvel brand boutique project; near EON",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Marvel+Enigma+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 127,
@@ -4756,13 +4346,9 @@ export const societyProfiles = [
     "broker": "Chagan Apte / Fulchand (PMC)",
     "brokerPhone": "020-26123456",
     "remarks": "MHADA government housing; high rental demand",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Mahada+Colony+%28Chandan+Nagar%29+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 128,
@@ -4792,13 +4378,9 @@ export const societyProfiles = [
     "broker": "Satin Brick Dev.",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Mid-range society; stable occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Satin+Brick+Society+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 129,
@@ -4829,13 +4411,9 @@ export const societyProfiles = [
     "broker": "Nicon Group",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Recently launched; good pre-launch pricing",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Nicon+Infinity+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 130,
@@ -4865,13 +4443,9 @@ export const societyProfiles = [
     "broker": "Kailash Dev.",
     "brokerPhone": "9922XXXXXX",
     "remarks": "New affordable project; early-bird pricing",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kailash+Dham+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 131,
@@ -4902,13 +4476,9 @@ export const societyProfiles = [
     "broker": "Cheryl Dev. (Manager)",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Established mid-segment society",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Cheryl+Society+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 132,
@@ -4941,13 +4511,9 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "Phase 2 of ultra-luxury villas; rare in Kharadi",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Velvet+Villas+Phase+2+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 133,
@@ -4979,13 +4545,11 @@ export const societyProfiles = [
     "broker": "Panchshil Realty",
     "brokerPhone": "020-30588888",
     "remarks": "Panchshil waterfront address; among Pune's most premium",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Panchshil+Eon+Waterfront+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2019/02/20/Project-Photo-14-Eon-Waterfront-Pune-5019801_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2019/02/20/Project-Photo-14-Eon-Waterfront-Pune-5019801_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 134,
@@ -5017,13 +4581,9 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "Gera's commercial+resi flagship; high rental yield",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera+Imperium+Rise+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 135,
@@ -5055,13 +4615,9 @@ export const societyProfiles = [
     "broker": "Kohinoor Group",
     "brokerPhone": "020-26876400",
     "remarks": "Kohinoor luxury brand; strong brand value",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kohinoor+Emerald+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 136,
@@ -5092,13 +4648,9 @@ export const societyProfiles = [
     "broker": "Nyati Group Office",
     "brokerPhone": "020-26876100",
     "remarks": "Nyati brand premium high-rise; ongoing delivery",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Nyati+Enthral+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 137,
@@ -5129,13 +4681,13 @@ export const societyProfiles = [
     "broker": "Mahindra Lifespace",
     "brokerPhone": "022-67478600",
     "remarks": "Mahindra luxury; Ivy-Lush green concept",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Mahindra+IvyLush+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2025/01/17/Project-Photo-1-Mahindra-IvyLush-Pune-5426341_410_1440_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2025/01/17/Project-Photo-1-Mahindra-IvyLush-Pune-5426341_410_1440_600_900.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2025/01/17/Project-Photo-6-Mahindra-IvyLush-Pune-5426341_479_1120_310_462.jpg",
+      "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2025/01/17/Project-Photo-4-Mahindra-IvyLush-Pune-5426341_479_1120_310_462.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 138,
@@ -5171,13 +4723,9 @@ export const societyProfiles = [
     "broker": "Lodha Group",
     "brokerPhone": "022-61364444",
     "remarks": "Largest balconies in Kharadi; resort-like amenities",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Lodha+Panache+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 139,
@@ -5209,13 +4757,9 @@ export const societyProfiles = [
     "broker": "Majestique Group",
     "brokerPhone": "020-26876300",
     "remarks": "Boutique society; 142 units only; very green",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Majestique+Blessings+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 140,
@@ -5246,13 +4790,9 @@ export const societyProfiles = [
     "broker": "Panchshil Realty",
     "brokerPhone": "020-30588888",
     "remarks": "Walk to office concept; inside EON campus",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Panchshil+Eon+Free+Zone+Residences+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 141,
@@ -5284,13 +4824,9 @@ export const societyProfiles = [
     "broker": "Kumar Builders",
     "brokerPhone": "020-66024444",
     "remarks": "Old but premium; near EON; good resale value",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kumar+Primavera+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 142,
@@ -5322,13 +4858,9 @@ export const societyProfiles = [
     "broker": "Dreams Group",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Dreams Group premium brand; Vriddhi township",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Dreams+Vriddhi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 143,
@@ -5359,13 +4891,9 @@ export const societyProfiles = [
     "broker": "Goel Ganga Group",
     "brokerPhone": "020-26876200",
     "remarks": "Budget offering from Goel Ganga Group",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Ganga+Yamuna+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 144,
@@ -5397,13 +4925,9 @@ export const societyProfiles = [
     "broker": "Rohan Builders",
     "brokerPhone": "020-41021111",
     "remarks": "Rohan brand; ready possession; good connectivity",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Rohan+Abhilasha+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 145,
@@ -5435,13 +4959,9 @@ export const societyProfiles = [
     "broker": "Goel Ganga Group",
     "brokerPhone": "020-26876200",
     "remarks": "Goel Ganga township; family community",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Goel+Ganga+Newtown+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 146,
@@ -5473,13 +4993,9 @@ export const societyProfiles = [
     "broker": "VJ Developers",
     "brokerPhone": "020-26876500",
     "remarks": "VJ brand premium; upcoming delivery",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Vilas+Javdekar+Oriana+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 147,
@@ -5511,13 +5027,9 @@ export const societyProfiles = [
     "broker": "Pride Group",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Pride Group luxury; strong brand in Pune",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Pride+Palazzo+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 148,
@@ -5548,13 +5060,9 @@ export const societyProfiles = [
     "broker": "Bramha Corp",
     "brokerPhone": "9822XXXXXX",
     "remarks": "Bramha Corp brand; stable society",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Bramha+Emerald+Court+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 149,
@@ -5586,13 +5094,9 @@ export const societyProfiles = [
     "broker": "Goel Ganga Group",
     "brokerPhone": "020-26876200",
     "remarks": "Goel Ganga township; well-established",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Ganga+Sun+City+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 150,
@@ -5623,13 +5127,9 @@ export const societyProfiles = [
     "broker": "Karan Builders",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Old society; near Magarpatta road; resale market",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Karan+Rhea+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 151,
@@ -5661,13 +5161,9 @@ export const societyProfiles = [
     "broker": "VTP Realty",
     "brokerPhone": "020-66301000",
     "remarks": "VTP Pegasus galaxy phase; upper Kharadi flagship",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=VTP+Pegasus+Galaxy+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 152,
@@ -5697,13 +5193,9 @@ export const societyProfiles = [
     "broker": "Aavkar Dev.",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Affordable stilt-parking society; budget segment",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Aavkar+Stilt+Plus+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 153,
@@ -5734,13 +5226,9 @@ export const societyProfiles = [
     "broker": "Gera Developments",
     "brokerPhone": "020-66026602",
     "remarks": "Old Gera brand; stable society; resale market",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Gera+Regency+Park+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 154,
@@ -5771,13 +5259,11 @@ export const societyProfiles = [
     "broker": "Kumar Builders",
     "brokerPhone": "020-66024444",
     "remarks": "High rental demand from IT workers near EON",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Kumar+Primrose+Kharadi+society+HD+photos+flats",
-    "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
+    "heroImage": "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/09/01/Project-Photo-39-Kumar-Primrose-Pune-5003525_345_1366_600_900.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+      "https://img.staticmb.com/mbimages/project/Photo_h600_w900/2021/09/01/Project-Photo-39-Kumar-Primrose-Pune-5003525_345_1366_600_900.jpg"
+    ],
+    "photoStatus": "verified-photo-url"
   },
   {
     "id": 155,
@@ -5809,13 +5295,9 @@ export const societyProfiles = [
     "broker": "Pebble Bay Dev.",
     "brokerPhone": "9881XXXXXX",
     "remarks": "Premium residential; good family occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Pebble+Bay+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 156,
@@ -5846,13 +5328,9 @@ export const societyProfiles = [
     "broker": "Green Heritage Dev.",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Eco-friendly mid segment; stable occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Green+Heritage+Society+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 157,
@@ -5882,13 +5360,9 @@ export const societyProfiles = [
     "broker": "CHS Secretary",
     "brokerPhone": "9890XXXXXX",
     "remarks": "Old co-operative; stable long-term occupancy",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Swapna+Nagari+CHS+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 158,
@@ -5918,13 +5392,9 @@ export const societyProfiles = [
     "broker": "Om Sai Dev.",
     "brokerPhone": "9922XXXXXX",
     "remarks": "Budget option; high rental demand from daily workers",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Om+Sai+Residency+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 159,
@@ -5957,13 +5427,9 @@ export const societyProfiles = [
     "broker": "Godrej Properties",
     "brokerPhone": "1800-270-0000",
     "remarks": "Godrej luxury flagship in Kharadi; ultra premium",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Godrej+Boulevard+Kharadi+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   },
   {
     "id": 160,
@@ -5996,13 +5462,9 @@ export const societyProfiles = [
     "broker": "Wisteria Dev.",
     "brokerPhone": "9823XXXXXX",
     "remarks": "Green valley living concept; upper Kharadi growth",
-    "imageSearchUrl": "https://www.google.com/search?tbm=isch&q=Wisteria+Valley+Kharadi+society+HD+photos+flats",
     "heroImage": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-    "gallery": [
-      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80",
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=1200&q=80"
-    ]
+    "gallery": [],
+    "photoStatus": "needs-photo-review"
   }
 ];
 
