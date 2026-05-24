@@ -1,133 +1,165 @@
 import {
+  ArrowLeft,
   ArrowRight,
   Building2,
-  CalendarDays,
   CheckCircle2,
-  Filter,
+  ExternalLink,
   Home,
+  IndianRupee,
   MapPin,
   Search,
   ShieldCheck,
+  Sparkles,
   Star,
   TrendingUp,
 } from "lucide-react";
-import React from "react";
-import { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import "./styles.css";
-import { featuredLocalities, posts, societies, stats } from "./data/properties.js";
-import { fetchPublishedPosts } from "./lib/supabase.js";
+import { societyProfiles, societyStats } from "./data/societyProfiles.js";
 
-const categories = ["All", "Society Guide", "Rent", "Buying", "Local Area"];
+const segmentFilters = [
+  "All",
+  ...Object.entries(
+    societyProfiles.reduce((acc, society) => {
+      if (society.segment) acc[society.segment] = (acc[society.segment] || 0) + 1;
+      return acc;
+    }, {})
+  )
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 7)
+    .map(([segment]) => segment),
+];
 
-function App() {
-  const [query, setQuery] = useState("");
-  const [category, setCategory] = useState("All");
-  const [publishedPosts, setPublishedPosts] = useState(posts);
-  const [isLoadingPosts, setIsLoadingPosts] = useState(false);
+function displayValue(value, fallback = "On request") {
+  if (!value || value === "-" || value === "—") return fallback;
+  return value;
+}
+
+function priceSummary(society) {
+  return (
+    [society.oneBhk, society.twoBhk, society.threeBhk, society.fourBhk]
+      .map((value) => displayValue(value, ""))
+      .filter(Boolean)[0] || "Price on request"
+  );
+}
+
+function guideExcerpt(society) {
+  const zone = society.zone || "Kharadi";
+  const segment = society.segment || "residential";
+  const rent = displayValue(society.monthlyRent, "rent details on request");
+  return `${society.name} is a ${segment} society in ${zone}, Kharadi. This guide covers price, rent, amenities, location, buyer profile, investment view, and photo research for serious home seekers. Monthly rent estimate: ${rent}.`;
+}
+
+function useHashRoute() {
+  const [hash, setHash] = useState(() => window.location.hash || "#top");
 
   useEffect(() => {
-    let isMounted = true;
-
-    async function loadPosts() {
-      setIsLoadingPosts(true);
-
-      try {
-        const supabasePosts = await fetchPublishedPosts();
-        if (isMounted && supabasePosts.length > 0) {
-          setPublishedPosts(
-            supabasePosts.map((post) => ({
-              id: post.slug || post.id,
-              category: post.category,
-              date: post.published_at
-                ? new Date(post.published_at).toLocaleDateString("en-IN", {
-                    month: "short",
-                    year: "numeric",
-                  })
-                : "Draft",
-              title: post.title,
-              society: post.society || "Kharadi",
-              location: post.location,
-              excerpt: post.excerpt,
-            }))
-          );
-        }
-      } catch (error) {
-        console.warn("Using sample posts because Supabase posts could not load.", error);
-      } finally {
-        if (isMounted) {
-          setIsLoadingPosts(false);
-        }
-      }
-    }
-
-    loadPosts();
-
-    return () => {
-      isMounted = false;
-    };
+    const onHashChange = () => setHash(window.location.hash || "#top");
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
 
-  const filteredPosts = useMemo(() => {
-    return publishedPosts.filter((post) => {
-      const matchesCategory = category === "All" || post.category === category;
-      const haystack = `${post.title} ${post.excerpt} ${post.society} ${post.location}`.toLowerCase();
-      return matchesCategory && haystack.includes(query.toLowerCase());
-    });
-  }, [category, publishedPosts, query]);
+  return hash;
+}
 
-  const selectCategory = (item) => {
-    setCategory(item);
-    setQuery("");
-  };
+function App() {
+  const route = useHashRoute();
+  const selectedSlug = route.startsWith("#/society/")
+    ? decodeURIComponent(route.replace("#/society/", ""))
+    : "";
+  const selectedSociety = societyProfiles.find((society) => society.slug === selectedSlug);
+
+  useEffect(() => {
+    document.title = selectedSociety
+      ? `${selectedSociety.name} Kharadi | kharadi properties`
+      : "kharadi properties";
+  }, [selectedSociety]);
+
+  if (selectedSociety) {
+    return <SocietyGuide society={selectedSociety} />;
+  }
+
+  return <HomePage />;
+}
+
+function SiteHeader() {
+  return (
+    <header className="site-header">
+      <a className="brand" href="#top" aria-label="kharadi properties home">
+        <span className="brand-mark"><Building2 size={22} /></span>
+        <span>kharadi properties</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#guides">Society Guides</a>
+        <a href="#photo-research">Photos</a>
+        <a href="#market">Market</a>
+        <a className="nav-cta" href="#guides">Explore</a>
+      </nav>
+    </header>
+  );
+}
+
+function HomePage() {
+  const [query, setQuery] = useState("");
+  const [segment, setSegment] = useState("All");
+
+  const filteredSocieties = useMemo(() => {
+    return societyProfiles.filter((society) => {
+      const matchesSegment = segment === "All" || society.segment === segment;
+      const haystack = [
+        society.name,
+        society.segment,
+        society.zone,
+        society.status,
+        society.builder,
+        society.address,
+        society.remarks,
+      ]
+        .join(" ")
+        .toLowerCase();
+      return matchesSegment && haystack.includes(query.toLowerCase());
+    });
+  }, [query, segment]);
+
+  const premiumSocieties = societyProfiles.slice(0, 6);
 
   return (
     <main>
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="kharadi properties home">
-          <span className="brand-mark"><Building2 size={22} /></span>
-          <span>kharadi properties</span>
-        </a>
-        <nav aria-label="Main navigation">
-          <a href="#blogs">Blogs</a>
-          <a href="#societies">Societies</a>
-          <a href="#localities">Localities</a>
-          <a className="nav-cta" href="#submit">Post Details</a>
-        </nav>
-      </header>
+      <SiteHeader />
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">Pune real estate blog, starting with Kharadi</p>
+          <p className="eyebrow">160 society guides for Kharadi and Upper Kharadi</p>
           <h1>kharadi properties</h1>
           <p className="hero-text">
-            Society-wise notes, rent ranges, buying guides, locality updates, and verified property information for people searching in Kharadi.
+            A private, no-index property intelligence site with detailed society blogs, price notes, rent ranges, amenities, location context, and photo research links.
           </p>
           <div className="hero-actions">
-            <a className="primary-button" href="#blogs">
-              Explore blogs <ArrowRight size={18} />
+            <a className="primary-button" href="#guides">
+              Explore society guides <ArrowRight size={18} />
             </a>
-            <a className="secondary-button" href="#submit">Share a society update</a>
+            <a className="secondary-button" href="#photo-research">Open photo research</a>
           </div>
         </div>
-        <div className="search-panel" aria-label="Property blog search">
+        <div className="search-panel" aria-label="Society guide search">
           <div className="search-title">
             <Search size={20} />
-            <span>Find property information</span>
+            <span>Search Kharadi societies</span>
           </div>
           <label>
-            Search society, topic, or area
+            Society, builder, zone, or landmark
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="E.g. EON Free Zone, rent, World Trade Center"
+              placeholder="E.g. Marvel Cerise, EON, riverfront"
             />
           </label>
-          <div className="quick-filters" aria-label="Blog category filters">
-            {categories.map((item) => (
+          <div className="quick-filters" aria-label="Society segment filters">
+            {segmentFilters.map((item) => (
               <button
                 key={item}
-                className={category === item ? "active" : ""}
-                onClick={() => selectCategory(item)}
+                className={segment === item ? "active" : ""}
+                onClick={() => setSegment(item)}
                 type="button"
               >
                 {item}
@@ -138,7 +170,7 @@ function App() {
       </section>
 
       <section className="stats-band" aria-label="Site highlights">
-        {stats.map((item) => (
+        {societyStats.map((item) => (
           <div key={item.label}>
             <strong>{item.value}</strong>
             <span>{item.label}</span>
@@ -146,127 +178,292 @@ function App() {
         ))}
       </section>
 
-      <section className="section-grid" id="blogs">
-        <div className="section-heading">
-          <p className="eyebrow">Property blog engine</p>
-          <h2>Latest Kharadi property notes</h2>
+      <section className="spotlight-section">
+        <div className="section-heading compact">
+          <p className="eyebrow">Start here</p>
+          <h2>Premium society spotlights</h2>
           <p>
-            Start with curated blog-style information now. Later, the same structure can power listings, owner leads, service pages, and paid property promotion.
+            Each guide reads like a focused property blog: overview, pricing, apartment mix, location, lifestyle, investment angle, buyer fit, and photo search.
           </p>
-          {isLoadingPosts && <span className="sync-note">Checking Supabase posts...</span>}
+        </div>
+        <div className="spotlight-grid">
+          {premiumSocieties.map((society) => (
+            <a className="spotlight-card" href={`#/society/${society.slug}`} key={society.slug}>
+              <img src={society.heroImage} alt={`${society.name} Kharadi society visual`} />
+              <span>{society.segment || "Society Guide"}</span>
+              <h3>{society.name}</h3>
+              <p>{society.zone || "Kharadi, Pune"}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="section-grid" id="guides">
+        <div className="section-heading">
+          <p className="eyebrow">Society blog library</p>
+          <h2>{filteredSocieties.length} detailed guides</h2>
+          <p>
+            Search any society from the spreadsheet and open its full guide. The pages are ready for richer photos, service CTAs, lead forms, and Supabase publishing.
+          </p>
         </div>
         <div className="blog-list">
-          {filteredPosts.map((post) => (
-            <article className="post-card" key={post.id}>
+          {filteredSocieties.map((society) => (
+            <article className="post-card society-guide-card" key={society.slug}>
               <div className="post-meta">
-                <span>{post.category}</span>
-                <span><CalendarDays size={14} /> {post.date}</span>
+                <span>{society.segment || "Society Guide"}</span>
+                <span><Star size={14} /> {displayValue(society.rating, "Rating soon")}</span>
               </div>
-              <h3>{post.title}</h3>
-              <p>{post.excerpt}</p>
+              <h3>{society.name} Kharadi: complete society guide</h3>
+              <p>{guideExcerpt(society)}</p>
+              <div className="guide-facts">
+                <span><MapPin size={15} /> {society.zone || "Kharadi"}</span>
+                <span><IndianRupee size={15} /> {priceSummary(society)}</span>
+                <span><Home size={15} /> {displayValue(society.status, "Status soon")}</span>
+              </div>
               <div className="post-footer">
-                <span><MapPin size={15} /> {post.location}</span>
-                <a href={`#post-${post.id}`}>Read guide</a>
+                <span>{displayValue(society.builder, "Builder details soon")}</span>
+                <a href={`#/society/${society.slug}`}>Read full guide</a>
               </div>
             </article>
           ))}
-          {filteredPosts.length === 0 && (
+          {filteredSocieties.length === 0 && (
             <div className="empty-state">
               <Search size={22} />
-              <strong>No matching notes yet</strong>
-              <span>Try another society, area, or category.</span>
+              <strong>No society found</strong>
+              <span>Try another society, builder, or Kharadi zone.</span>
             </div>
           )}
         </div>
       </section>
 
-      <section className="society-section" id="societies">
-        <div className="section-heading compact">
-          <p className="eyebrow">Society directory</p>
-          <h2>Society pages coming first</h2>
-        </div>
-        <div className="society-table" role="table" aria-label="Kharadi society overview">
-          <div className="table-row table-head" role="row">
-            <span>Society</span>
-            <span>Area</span>
-            <span>Focus</span>
-            <span>Status</span>
-          </div>
-          {societies.map((society) => (
-            <div className="table-row" role="row" key={society.name}>
-              <span>{society.name}</span>
-              <span>{society.area}</span>
-              <span>{society.focus}</span>
-              <span className="status">{society.status}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="locality-section" id="localities">
-        <div className="section-heading compact">
-          <p className="eyebrow">Area intelligence</p>
-          <h2>Micro-localities to cover</h2>
-        </div>
-        <div className="locality-grid">
-          {featuredLocalities.map((locality) => (
-            <article key={locality.name} className="locality-card">
-              <span className="locality-icon">{locality.icon}</span>
-              <h3>{locality.name}</h3>
-              <p>{locality.note}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="engine-section">
+      <section className="photo-research-section" id="photo-research">
         <div>
-          <p className="eyebrow">Ready for Supabase + Vercel</p>
-          <h2>Built like a property content engine</h2>
-        </div>
-        <div className="engine-grid">
-          <div><CheckCircle2 /> Blog posts can move from sample data to Supabase rows.</div>
-          <div><ShieldCheck /> Admin posting can be added with Supabase Auth.</div>
-          <div><Filter /> Categories support society guides, rent, buying, and area news.</div>
-          <div><TrendingUp /> Service and listing pages can be added without rebuilding the layout.</div>
-        </div>
-      </section>
-
-      <section className="submit-section" id="submit">
-        <div>
-          <p className="eyebrow">Next step</p>
-          <h2>Post society details later</h2>
+          <p className="eyebrow">Google Images workflow</p>
+          <h2>HD photo research for every society</h2>
           <p>
-            This form is a front-end placeholder. Once Supabase is connected, it can save society updates, rent details, owner listings, and broker/service requests.
+            Every society page includes a direct HD Google Images search for society exteriors, flats, amenities, and local visuals. Verified photos can be added into the gallery as you approve them.
           </p>
         </div>
-        <form>
-          <label>
-            Society name
-            <input placeholder="Enter society name" />
-          </label>
-          <label>
-            Update type
-            <select defaultValue="Society Guide">
-              <option>Society Guide</option>
-              <option>Rent Update</option>
-              <option>Buying Note</option>
-              <option>Local Area Update</option>
-            </select>
-          </label>
-          <label>
-            Details
-            <textarea placeholder="Write parking, amenities, rent, location, nearby IT parks..." />
-          </label>
-          <button type="button">Save draft soon</button>
-        </form>
+        <div className="engine-grid">
+          <div><Sparkles /> Search society name plus Kharadi, flats, amenities, and HD photos.</div>
+          <div><ShieldCheck /> Keep the site no-index while the content and photos are being prepared.</div>
+          <div><CheckCircle2 /> Replace visual placeholders with approved society photos later.</div>
+          <div><TrendingUp /> Use the same guide pages for future property selling services.</div>
+        </div>
+      </section>
+
+      <section className="engine-section" id="market">
+        <div>
+          <p className="eyebrow">Private build mode</p>
+          <h2>No-index society intelligence site</h2>
+        </div>
+        <div className="engine-grid">
+          <div><CheckCircle2 /> HTML robots meta tag blocks indexing.</div>
+          <div><ShieldCheck /> Vercel sends an X-Robots-Tag noindex header.</div>
+          <div><TrendingUp /> 160 generated society guides are ready for refinement.</div>
+          <div><Building2 /> The structure can become a listings and services portal next.</div>
+        </div>
       </section>
 
       <footer>
         <strong>kharadi properties</strong>
-        <span>Kharadi, Pune property blog today. Property services tomorrow.</span>
+        <span>Kharadi, Pune society blogs today. Property services tomorrow.</span>
       </footer>
     </main>
+  );
+}
+
+function SocietyGuide({ society }) {
+  const relatedCandidates = [
+    ...societyProfiles.filter((item) => item.slug !== society.slug && item.zone === society.zone),
+    ...societyProfiles.filter((item) => item.slug !== society.slug && item.segment === society.segment),
+    ...societyProfiles.filter((item) => item.slug !== society.slug),
+  ];
+  const related = Array.from(new Map(relatedCandidates.map((item) => [item.slug, item])).values()).slice(0, 3);
+
+  const priceCards = [
+    ["1 BHK", society.oneBhk],
+    ["2 BHK", society.twoBhk],
+    ["3 BHK", society.threeBhk],
+    ["4 BHK / Villa", society.fourBhk],
+  ];
+
+  return (
+    <main className="detail-main">
+      <SiteHeader />
+
+      <section className="detail-hero" style={{ backgroundImage: `linear-gradient(90deg, rgba(17, 23, 19, 0.88), rgba(23, 107, 90, 0.55)), url(${society.heroImage})` }}>
+        <div>
+          <a className="back-link" href="#guides"><ArrowLeft size={17} /> Back to all society guides</a>
+          <p className="eyebrow">{society.segment || "Kharadi society guide"}</p>
+          <h1>{society.name} Kharadi: complete society guide</h1>
+          <p className="hero-text">
+            Price, rent, amenities, location, buyer profile, investment view, contact details, and HD photo research for {society.name}.
+          </p>
+          <div className="detail-tags">
+            <span><MapPin size={16} /> {society.zone || "Kharadi"}</span>
+            <span><Star size={16} /> {displayValue(society.rating, "Rating soon")}</span>
+            <span><Home size={16} /> {displayValue(society.status, "Status soon")}</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="article-shell">
+        <aside className="fact-panel">
+          <h2>Quick facts</h2>
+          <Fact label="Builder" value={society.builder} />
+          <Fact label="Possession" value={society.possession} />
+          <Fact label="Carpet area" value={society.carpetArea} />
+          <Fact label="Price per sq.ft" value={society.pricePerSqft} />
+          <Fact label="Rent estimate" value={society.monthlyRent} />
+          <Fact label="Rental yield" value={society.rentalYield} />
+          <Fact label="Investment" value={society.investmentPotential} />
+          <a className="primary-button panel-button" href={society.imageSearchUrl} target="_blank" rel="noreferrer">
+            HD photo search <ExternalLink size={17} />
+          </a>
+        </aside>
+
+        <article className="society-article">
+          <section>
+            <p className="eyebrow">Overview</p>
+            <h2>Why {society.name} deserves attention</h2>
+            <p>
+              If you are comparing homes in {society.zone || "Kharadi"}, {society.name} is one of the societies worth shortlisting carefully. It sits in the {society.segment || "residential"} category and gives buyers and tenants a clear mix of location convenience, apartment options, amenities, and future value potential.
+            </p>
+            <p>
+              The biggest reason people look at {society.name} is the Kharadi advantage itself. The area is close to major IT and business hubs, has strong rental movement, and continues to attract professionals who want daily convenience without moving away from Pune East's growth corridor.
+            </p>
+            {society.remarks && <p>{society.remarks}</p>}
+          </section>
+
+          <section>
+            <p className="eyebrow">Price and configuration</p>
+            <h2>Apartment pricing and rent view</h2>
+            <div className="price-grid">
+              {priceCards.map(([label, value]) => (
+                <div key={label}>
+                  <span>{label}</span>
+                  <strong>{displayValue(value)}</strong>
+                </div>
+              ))}
+            </div>
+            <p>
+              Current pricing information in the database shows {priceSummary(society)} as the first available price band, with carpet area around {displayValue(society.carpetArea, "area details on request")}. Rental demand is supported by the local IT corridor, with a monthly rent estimate of {displayValue(society.monthlyRent, "rent on request")} and indicated rental yield of {displayValue(society.rentalYield, "yield on request")}.
+            </p>
+          </section>
+
+          <section>
+            <p className="eyebrow">Location</p>
+            <h2>Address and Kharadi connectivity</h2>
+            <p>
+              {society.name} is listed around {society.address || `${society.zone || "Kharadi"}, Pune`}. This location works well for people who need access to EON IT Park, World Trade Center, Magarpatta, Viman Nagar, Pune Airport, and the wider Pune East office belt.
+            </p>
+            <p>
+              For end users, the practical question is not only distance on a map. It is the daily rhythm: office commute, food options, school access, medical support, parking, cab availability, and how quickly you can move between Kharadi's inner roads and the bypass.
+            </p>
+          </section>
+
+          <section>
+            <p className="eyebrow">Lifestyle</p>
+            <h2>Amenities and daily living</h2>
+            <div className="amenity-cloud">
+              {(society.amenities.length ? society.amenities : ["Clubhouse", "Security", "Parking", "Gym", "Landscape area"]).map((amenity) => (
+                <span key={amenity}>{amenity}</span>
+              ))}
+            </div>
+            <p>
+              Amenities matter because Kharadi buyers are usually choosing between many similar-looking societies. The stronger societies make everyday life easier: cleaner common areas, better security, usable clubhouse spaces, reliable parking, and facilities that families actually use after possession.
+            </p>
+          </section>
+
+          <section>
+            <p className="eyebrow">Photo board</p>
+            <h2>Society and flat visuals</h2>
+            <div className="gallery-grid">
+              {society.gallery.map((image, index) => (
+                <img src={image} alt={`${society.name} visual ${index + 1}`} key={image} />
+              ))}
+            </div>
+            <div className="photo-actions">
+              <a href={society.imageSearchUrl} target="_blank" rel="noreferrer">
+                Search {society.name} HD society photos <ExternalLink size={16} />
+              </a>
+              <a href={`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(`${society.name} Kharadi flat interiors`)}`} target="_blank" rel="noreferrer">
+                Search flat interiors <ExternalLink size={16} />
+              </a>
+            </div>
+          </section>
+
+          <section>
+            <p className="eyebrow">Buyer fit</p>
+            <h2>Who should shortlist {society.name}?</h2>
+            <p>
+              The strongest buyer profile for this society is {displayValue(society.buyerProfile, "end users, investors, and Kharadi-focused tenants")}. If your priority is office proximity, rental demand, and a society with Kharadi address value, this guide should be part of your shortlist.
+            </p>
+            <p>
+              Investors should compare the entry price, rent estimate, maintenance expectations, vacancy risk, and resale demand against nearby projects in the same segment. End users should visit during peak traffic hours and inspect parking, lift waiting time, water supply, and society rules before finalizing.
+            </p>
+          </section>
+
+          <section>
+            <p className="eyebrow">FAQ</p>
+            <h2>Common questions</h2>
+            <div className="faq-grid">
+              <Faq question={`Is ${society.name} good for rental investment?`} answer={`The database indicates rent around ${displayValue(society.monthlyRent, "rent on request")} and yield around ${displayValue(society.rentalYield, "yield on request")}. Actual returns depend on furnishing, floor, view, maintenance, and current demand.`} />
+              <Faq question={`What is the main location advantage?`} answer={`${society.name} is positioned around ${society.zone || "Kharadi"}, which is useful for EON IT Park, WTC, Pune East offices, airport access, and Kharadi's social infrastructure.`} />
+              <Faq question="What should I verify before buying?" answer="Check title documents, RERA status where applicable, society dues, parking allotment, maintenance cost, builder handover quality, resale history, and live rent demand." />
+              <Faq question="Can this page become a selling page later?" answer="Yes. The guide structure already supports photos, inquiry forms, owner listings, broker details, site visit CTAs, and verified property inventory." />
+            </div>
+          </section>
+
+          <section>
+            <p className="eyebrow">Contact intelligence</p>
+            <h2>Broker and contact details</h2>
+            <div className="contact-strip">
+              <span>{displayValue(society.broker, "Contact to be updated")}</span>
+              <strong>{displayValue(society.brokerPhone, "Phone to be updated")}</strong>
+            </div>
+          </section>
+
+          <section>
+            <p className="eyebrow">Compare next</p>
+            <h2>Related society guides</h2>
+            <div className="related-grid">
+              {related.map((item) => (
+                <a href={`#/society/${item.slug}`} key={item.slug}>
+                  <span>{item.segment || "Society Guide"}</span>
+                  <strong>{item.name}</strong>
+                  <small>{item.zone || "Kharadi"}</small>
+                </a>
+              ))}
+            </div>
+          </section>
+        </article>
+      </section>
+
+      <footer>
+        <strong>kharadi properties</strong>
+        <span>{society.name} society guide</span>
+      </footer>
+    </main>
+  );
+}
+
+function Fact({ label, value }) {
+  return (
+    <div className="fact-row">
+      <span>{label}</span>
+      <strong>{displayValue(value)}</strong>
+    </div>
+  );
+}
+
+function Faq({ question, answer }) {
+  return (
+    <div className="faq-card">
+      <strong>{question}</strong>
+      <p>{answer}</p>
+    </div>
   );
 }
 

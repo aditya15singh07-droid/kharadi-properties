@@ -1,6 +1,8 @@
 # kharadi properties
 
-A Vite + React property blog website for Kharadi, Pune. This first version is a content engine for society guides, rent updates, buying notes, and local area information. Later it can grow into service pages and property sales/listings.
+A Vite + React property blog website for Kharadi, Pune. This version includes 160 generated society guide pages from the Kharadi society database, with price notes, rent estimates, amenities, buyer profile, investment view, and photo research links.
+
+The site is intentionally set to no-index/private build mode while content and photos are being refined.
 
 ## Live links
 
@@ -21,7 +23,13 @@ npm run dev
 3. Copy `.env.example` to `.env.local`.
 4. Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
 
-The current UI uses sample data from `src/data/properties.js`. The Supabase client and `fetchPublishedPosts()` helper are ready in `src/lib/supabase.js` for connecting real blog posts next.
+The current society guide UI uses generated local data from `src/data/societyProfiles.js`. The Supabase client and `fetchPublishedPosts()` helper remain ready in `src/lib/supabase.js` for connecting real blog posts or admin-published content next.
+
+## Society guide data
+
+- Main society pages are generated from `src/data/societyProfiles.js`.
+- Source spreadsheet: `Kharadi_160_Societies_Complete_Database.xlsx`.
+- Each society page includes direct Google Images search links for HD society and flat photos.
 
 ## Vercel deployment
 
