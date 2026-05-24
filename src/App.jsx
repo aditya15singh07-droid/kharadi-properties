@@ -83,9 +83,9 @@ function App() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="KHARADI PROPERTIES home">
+        <a className="brand" href="#top" aria-label="kharadi properties home">
           <span className="brand-mark"><Building2 size={22} /></span>
-          <span>KHARADI PROPERTIES</span>
+          <span>kharadi properties</span>
         </a>
         <nav aria-label="Main navigation">
           <a href="#blogs">Blogs</a>
@@ -98,7 +98,7 @@ function App() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">Pune real estate blog, starting with Kharadi</p>
-          <h1>KHARADI PROPERTIES</h1>
+          <h1>kharadi properties</h1>
           <p className="hero-text">
             Society-wise notes, rent ranges, buying guides, locality updates, and verified property information for people searching in Kharadi.
           </p>
@@ -263,7 +263,7 @@ function App() {
       </section>
 
       <footer>
-        <strong>KHARADI PROPERTIES</strong>
+        <strong>kharadi properties</strong>
         <span>Kharadi, Pune property blog today. Property services tomorrow.</span>
       </footer>
     </main>

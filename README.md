@@ -1,4 +1,4 @@
-# KHARADI PROPERTIES
+# kharadi properties
 
 A Vite + React property blog website for Kharadi, Pune. This first version is a content engine for society guides, rent updates, buying notes, and local area information. Later it can grow into service pages and property sales/listings.
 
