@@ -2,6 +2,11 @@
 
 A Vite + React property blog website for Kharadi, Pune. This first version is a content engine for society guides, rent updates, buying notes, and local area information. Later it can grow into service pages and property sales/listings.
 
+## Live links
+
+- Website: https://i-want-to-create-a-website-rouge.vercel.app
+- GitHub: https://github.com/aditya15singh07-droid/kharadi-properties
+
 ## Run locally
 
 ```bash
